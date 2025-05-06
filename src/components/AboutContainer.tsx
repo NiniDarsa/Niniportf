@@ -1,11 +1,133 @@
 import styled from "styled-components";
 import AboutImage from "./AboutImage";
+import { motion } from "motion/react";
 
 const AboutContainer = () => {
+  const box1 = {
+    hidden: {
+      y: -200,
+      opacity: 0,
+      x: -10,
+      rotate: 4,
+    }, // Initial position (above the screen)
+    show: {
+      y: 0,
+      x: -10,
+      opacity: 1,
+      rotate: 4,
+      transition: {
+        type: "spring", // Makes the animation more bouncy and natural
+        stiffness: 100, // Controls the speed of the fall (higher = faster)
+        damping: 10, // Controls the bounciness at the end
+        delay: 0.6,
+      },
+    }, // Final position (at the bottom)
+  };
+  const box2 = {
+    hidden: {
+      y: -200,
+      opacity: 0,
+      x: 40,
+      rotate: -7,
+    }, // Initial position (above the screen)
+    show: {
+      y: 0,
+      opacity: 1,
+      x: 40,
+      rotate: -7,
+      transition: {
+        type: "spring", // Makes the animation more bouncy and natural
+        stiffness: 100, // Controls the speed of the fall (higher = faster)
+        damping: 10, // Controls the bounciness at the end
+        delay: 0.4,
+      },
+    }, // Final position (at the bottom)
+  };
+
+  const box3 = {
+    hidden: {
+      y: -200,
+      opacity: 0,
+    }, // Initial position (above the screen)
+    show: {
+      y: 0,
+      opacity: 1,
+
+      transition: {
+        type: "spring", // Makes the animation more bouncy and natural
+        stiffness: 100, // Controls the speed of the fall (higher = faster)
+        damping: 10, // Controls the bounciness at the end
+        delay: 0.2,
+      },
+    }, // Final position (at the bottom)
+  };
+
+  const box4 = {
+    hidden: {
+      y: -200,
+      opacity: 0,
+
+      rotate: 5,
+    }, // Initial position (above the screen)
+    show: {
+      y: 0,
+      opacity: 1,
+      rotate: 5,
+      transition: {
+        type: "spring", // Makes the animation more bouncy and natural
+        stiffness: 100, // Controls the speed of the fall (higher = faster)
+        damping: 10, // Controls the bounciness at the end
+        delay: 0.6,
+      },
+    }, // Final position (at the bottom)
+  };
+
+  const box5 = {
+    hidden: {
+      y: -200,
+      opacity: 0,
+      x: 10,
+      rotate: 15,
+    }, // Initial position (above the screen)
+    show: {
+      y: 0,
+      opacity: 1,
+      x: 10,
+      rotate: 15,
+      transition: {
+        type: "spring", // Makes the animation more bouncy and natural
+        stiffness: 100, // Controls the speed of the fall (higher = faster)
+        damping: 10, // Controls the bounciness at the end
+        delay: 0.4,
+      },
+    }, // Final position (at the bottom)
+  };
+  const box6 = {
+    hidden: {
+      y: -200,
+      opacity: 0,
+      rotate: 6,
+    }, // Initial position (above the screen)
+    show: {
+      y: 0,
+      opacity: 1,
+      rotate: 6,
+      transition: {
+        type: "spring", // Makes the animation more bouncy and natural
+        stiffness: 100, // Controls the speed of the fall (higher = faster)
+        damping: 10, // Controls the bounciness at the end
+        delay: 0.2,
+      },
+    }, // Final position (at the bottom)
+  };
   return (
     <StyledContainer>
       <div>
         <StyledBox
+          variants={box1}
+          initial="hidden"
+          // animate={inView ? "show" : "hidden"}
+          animate="show"
           style={{ transform: "translateX(-10px) rotate(4deg)", zIndex: 3 }}
         >
           <h3>Speciality:</h3>
@@ -13,6 +135,10 @@ const AboutContainer = () => {
         </StyledBox>
 
         <StyledBox
+          variants={box2}
+          initial="hidden"
+          // animate={inView ? "show" : "hidden"}
+          animate="show"
           style={{
             transform: " translateX(40px) rotate(-7deg)",
             zIndex: 2,
@@ -22,7 +148,13 @@ const AboutContainer = () => {
           <p>2 years</p>
         </StyledBox>
 
-        <StyledBox style={{ zIndex: 1 }}>
+        <StyledBox
+          variants={box3}
+          initial="hidden"
+          // animate={inView ? "show" : "hidden"}
+          animate="show"
+          style={{ zIndex: 1 }}
+        >
           <h3>Projects:</h3>
           <p>20+</p>
         </StyledBox>
@@ -30,6 +162,10 @@ const AboutContainer = () => {
       <AboutImage />
       <div>
         <StyledBox
+          variants={box4}
+          initial="hidden"
+          // animate={inView ? "show" : "hidden"}
+          animate="show"
           style={{
             transform: "rotate(5deg)",
             zIndex: 3,
@@ -40,6 +176,10 @@ const AboutContainer = () => {
         </StyledBox>
 
         <StyledBox
+          variants={box5}
+          initial="hidden"
+          // animate={inView ? "show" : "hidden"}
+          animate="show"
           style={{
             transform: " translateX(10px) rotate(14deg)",
             zIndex: 2,
@@ -50,6 +190,10 @@ const AboutContainer = () => {
         </StyledBox>
 
         <StyledBox
+          variants={box6}
+          initial="hidden"
+          // animate={inView ? "show" : "hidden"}
+          animate="show"
           style={{
             transform: "rotate(4deg)",
             zIndex: 1,
@@ -64,17 +208,16 @@ const AboutContainer = () => {
 };
 export default AboutContainer;
 const StyledContainer = styled.div`
-  width: 1080px;
+  width: 90%;
   height: 532px;
-  padding-top: 2rem;
+  padding: 4rem 8rem;
   display: flex;
   justify-content: center;
   align-items: center;
 `;
-const StyledBox = styled.div`
+const StyledBox = styled(motion.div)`
   box-shadow: 0px 16px 17px 0px #1a1a1a0a;
   border: 1px solid #1a1a1a12;
-  width: 320px;
   margin-bottom: 0.5rem;
   border-radius: 10px;
   color: black;

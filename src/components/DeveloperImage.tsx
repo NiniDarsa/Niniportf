@@ -6,12 +6,12 @@ const DeveloperImage = () => {
   const mouseMove: Variants = {
     hidden: {
       y: 4,
-      x: -400,
+      x: -100,
       fill: "black",
     },
     visible: {
       y: -5,
-      x: 60,
+      x: 20,
       fill: "black",
 
       transition: {
@@ -754,17 +754,24 @@ const DeveloperImage = () => {
       </StyledSvg>
 
       <StyledMouse
-        className="pointer"
-        viewBox="0 0 47 76"
+        variants={mouseMove}
+        initial="hidden"
+        animate="visible"
+        viewBox="0 0 70 72"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <motion.path
-          variants={mouseMove}
-          initial="hidden"
-          animate="visible"
-          d="M0.8125 0.384766L0.8125 74.924L5.0938 70.9145L15.5143 61.0732L20.765 72.8281L21.8959 75.4707L24.2385 74.1038L32.2357 69.4565L34.4975 68.1808L33.3666 65.5382L28.6006 54.9679L41.6868 53.1454L46.9375 52.4164L43.2217 48.2247L5.25536 5.30545L0.8125 0.384766ZM5.98238 14.5089L35.8707 48.1336L24.2385 49.6827L20.6034 50.2294L22.2998 53.9655L27.6312 65.6293L24.2385 67.6341L18.6647 55.059L17.1299 51.7785L14.6258 54.1478L5.98238 62.3489L5.98238 14.5089Z"
-        />
+        <g clipPath="url(#clip0_2_8)">
+          <path
+            d="M54.4399 46.2833H39.9362L47.5694 65.4073C48.1011 66.7331 47.4935 68.2197 46.2782 68.7822L39.5564 71.7954C38.3034 72.3579 36.8982 71.7151 36.3665 70.4293L29.1132 52.2696L17.2646 64.8046C15.6856 66.4748 13.125 65.1872 13.125 62.9967V2.57326C13.125 0.26701 15.8486 -0.857286 17.2644 0.765385L56.1489 41.9041C57.7173 43.4761 56.56 46.2833 54.4399 46.2833Z"
+            fill="white"
+          />
+        </g>
+        <defs>
+          <clipPath id="clip0_2_8">
+            <rect width="70" height="72" fill="white" />
+          </clipPath>
+        </defs>
       </StyledMouse>
     </SvgContainer>
   );
@@ -779,7 +786,7 @@ const StyledSvg = styled.svg`
   height: 512px;
   transform: translateY(4%);
 `;
-const StyledMouse = styled.svg`
+const StyledMouse = styled(motion.svg)`
   width: 14rem;
   height: 1.2rem;
   position: absolute;

@@ -15,7 +15,8 @@ const GlobalStyle = createGlobalStyle`
 
   body{
     font-family: "Inter", sans-serif;
-
+    overflow-x: hidden;
+    background:#060018;
   }
 
  

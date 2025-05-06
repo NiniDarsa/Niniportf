@@ -19,6 +19,7 @@ const StyledBtnContainer = styled.div`
     border-radius: 1000px;
     color: white;
     cursor: pointer;
+    transition: all 0.2s ease;
   }
 `;
 const StyledButtonSecond = styled.button`

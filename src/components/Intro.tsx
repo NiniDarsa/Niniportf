@@ -18,7 +18,6 @@ const Intro = () => {
         <DeveloperImage />
       </StyledContainer>
       <MouseSvg />
-      {/* <Stars right="-100px" bottom="-200px" /> */}
       <Stars right="-100px" bottom="-100px" />
     </StyledIntro>
   );

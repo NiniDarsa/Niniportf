@@ -19,6 +19,7 @@ const StyledAbout = styled.div`
   justify-content: center;
   align-items: center;
   font-family: "Urbanist", sans-serif;
+  background-color: white;
   button {
     box-shadow: 0px 12px 12px 0px #1a1a1a26;
     box-shadow: 0px 4px 6px 0px #ffffff59 inset;
@@ -33,6 +34,7 @@ const StyledAbout = styled.div`
     font-size: 16px;
     line-height: 142%;
     letter-spacing: 0%;
+    transition: all 0.2s ease;
 
     &:hover {
       background-color: #333333;
@@ -49,5 +51,6 @@ const StyledAbout = styled.div`
     line-height: 98%;
     letter-spacing: -2%;
     text-align: center;
+    margin-bottom: 2rem;
   }
 `;
