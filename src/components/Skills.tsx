@@ -246,7 +246,7 @@ const SmallText = styled.div`
   transform: rotateZ(90deg);
   width: 20rem;
   text-align: end;
-  margin-top: 4rem;
+  margin-top: 3rem;
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 20px;

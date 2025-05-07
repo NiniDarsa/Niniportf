@@ -25,9 +25,9 @@ const ProjectContainer = () => {
                 <path
                   d="M1.60376 11L11.6038 1M11.6038 1H1.60376M11.6038 1V11"
                   stroke="#CDFF65"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </button>
@@ -54,9 +54,9 @@ const ProjectContainer = () => {
                 <path
                   d="M1.60376 11L11.6038 1M11.6038 1H1.60376M11.6038 1V11"
                   stroke="#CDFF65"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </button>
@@ -84,9 +84,9 @@ const ProjectContainer = () => {
                 <path
                   d="M1.60376 11L11.6038 1M11.6038 1H1.60376M11.6038 1V11"
                   stroke="#CDFF65"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </button>
@@ -159,9 +159,9 @@ const ProjectContainer = () => {
                 <path
                   d="M1.60376 11L11.6038 1M11.6038 1H1.60376M11.6038 1V11"
                   stroke="#CDFF65"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </button>

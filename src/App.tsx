@@ -5,6 +5,7 @@ import GlobalStyle from "./Styles/GlobalStyles";
 import SkillSet from "./components/SkillSet";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Feedback from "./components/Feedback";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <SkillSet />
       <Projects />
+      <Feedback />
       <Contact />
     </StyledApp>
   );

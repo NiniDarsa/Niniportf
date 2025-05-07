@@ -21,7 +21,7 @@ const Projects = () => {
               cy="523"
               r="223"
               fill="url(#paint0_radial_323_22198)"
-              fill-opacity="0.67"
+              fillOpacity="0.67"
             />
           </g>
           <defs>
@@ -32,9 +32,9 @@ const Projects = () => {
               width="1046"
               height="1046"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
@@ -54,8 +54,8 @@ const Projects = () => {
               gradientUnits="userSpaceOnUse"
               gradientTransform="translate(12 523) rotate(90) scale(223)"
             >
-              <stop offset="0.390625" stop-color="#46FF52" />
-              <stop offset="1" stop-color="#6BFFFD" stop-opacity="0" />
+              <stop offset="0.390625" stopColor="#46FF52" />
+              <stop offset="1" stopColor="#6BFFFD" stopOpacity="0" />
             </radialGradient>
           </defs>
         </Styledgreensvg>
@@ -69,7 +69,7 @@ const Projects = () => {
             height="927"
             transform="translate(-3)"
             fill="url(#paint0_linear_287_19193)"
-            fill-opacity="0.64"
+            fillOpacity="0.64"
           />
           <defs>
             <linearGradient
@@ -80,9 +80,9 @@ const Projects = () => {
               y2="1496.93"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#060018" />
-              <stop offset="0.203868" stop-color="#060018" />
-              <stop offset="1" stop-color="#3635E9" />
+              <stop stopColor="#060018" />
+              <stop offset="0.203868" stopColor="#060018" />
+              <stop offset="1" stopColor="#3635E9" />
             </linearGradient>
           </defs>
         </StyledBottomsvg>

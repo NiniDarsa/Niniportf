@@ -1,7 +1,7 @@
 const BackgroundContact = () => {
   return (
     <svg viewBox="0 0 1440 949" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <g clip-path="url(#clip0_287_10848)">
+      <g clipPath="url(#clip0_287_10848)">
         <rect width="1440" height="949" fill="#060018" />
         <mask
           id="mask0_287_10848"
@@ -18,7 +18,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="260.88"
@@ -26,7 +26,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="357.13"
@@ -34,7 +34,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="453.379"
@@ -42,7 +42,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="549.628"
@@ -50,7 +50,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="645.878"
@@ -58,7 +58,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="742.127"
@@ -66,7 +66,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="838.376"
@@ -74,7 +74,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="934.626"
@@ -82,7 +82,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1030.88"
@@ -90,7 +90,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1127.12"
@@ -98,7 +98,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1223.37"
@@ -106,7 +106,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1319.62"
@@ -114,7 +114,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1415.87"
@@ -122,7 +122,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="164.631"
@@ -130,7 +130,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="260.88"
@@ -138,7 +138,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="357.13"
@@ -146,7 +146,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="453.379"
@@ -154,7 +154,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="549.628"
@@ -162,7 +162,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="645.878"
@@ -170,7 +170,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="742.127"
@@ -178,7 +178,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="838.376"
@@ -186,7 +186,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="934.626"
@@ -194,7 +194,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1030.88"
@@ -202,7 +202,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1127.12"
@@ -210,7 +210,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1223.37"
@@ -218,7 +218,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1319.62"
@@ -226,7 +226,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1415.87"
@@ -234,7 +234,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="164.631"
@@ -242,7 +242,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="260.88"
@@ -250,7 +250,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="357.13"
@@ -258,7 +258,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="453.379"
@@ -266,7 +266,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="549.628"
@@ -274,7 +274,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="645.878"
@@ -282,7 +282,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="742.127"
@@ -290,7 +290,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="838.376"
@@ -298,7 +298,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="934.626"
@@ -306,7 +306,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1030.88"
@@ -314,7 +314,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1127.12"
@@ -322,7 +322,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1223.37"
@@ -330,7 +330,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1319.62"
@@ -338,7 +338,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1415.87"
@@ -346,7 +346,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="164.631"
@@ -354,7 +354,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="260.88"
@@ -362,7 +362,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="357.13"
@@ -370,7 +370,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="453.379"
@@ -378,7 +378,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="549.628"
@@ -386,7 +386,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="645.371"
@@ -394,7 +394,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="742.127"
@@ -402,7 +402,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="838.376"
@@ -410,7 +410,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="934.626"
@@ -418,7 +418,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1030.88"
@@ -426,7 +426,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1127.12"
@@ -434,7 +434,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1223.37"
@@ -442,7 +442,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1319.12"
@@ -450,7 +450,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="1415.87"
@@ -458,7 +458,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="164.631"
@@ -466,7 +466,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="260.88"
@@ -474,7 +474,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="357.13"
@@ -482,7 +482,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="453.379"
@@ -490,7 +490,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="549.122"
@@ -498,7 +498,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="645.878"
@@ -506,7 +506,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="741.62"
@@ -514,7 +514,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="838.376"
@@ -522,7 +522,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="934.626"
@@ -530,7 +530,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1030.88"
@@ -538,7 +538,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1127.12"
@@ -546,7 +546,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1222.87"
@@ -554,7 +554,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="1319.62"
@@ -562,7 +562,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1415.37"
@@ -570,7 +570,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="164.631"
@@ -578,7 +578,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="260.88"
@@ -586,7 +586,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="357.13"
@@ -594,7 +594,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="452.872"
@@ -602,7 +602,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="549.628"
@@ -610,7 +610,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="645.371"
@@ -618,7 +618,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="742.127"
@@ -626,7 +626,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="838.376"
@@ -634,7 +634,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="934.626"
@@ -642,7 +642,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1030.88"
@@ -650,7 +650,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1127.12"
@@ -658,7 +658,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1223.37"
@@ -666,7 +666,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1319.12"
@@ -674,7 +674,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="1415.87"
@@ -682,7 +682,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="164.631"
@@ -690,7 +690,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="260.88"
@@ -698,7 +698,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="357.13"
@@ -706,7 +706,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="453.379"
@@ -714,7 +714,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="549.628"
@@ -722,7 +722,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="645.878"
@@ -730,7 +730,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="742.127"
@@ -738,7 +738,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="838.376"
@@ -746,7 +746,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="934.626"
@@ -754,7 +754,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1030.88"
@@ -762,7 +762,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1127.12"
@@ -770,7 +770,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1223.37"
@@ -778,7 +778,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1319.62"
@@ -786,7 +786,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1415.87"
@@ -794,7 +794,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="164.631"
@@ -802,7 +802,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="260.88"
@@ -810,7 +810,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="357.13"
@@ -818,7 +818,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="453.379"
@@ -826,7 +826,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="549.628"
@@ -834,7 +834,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="645.878"
@@ -842,7 +842,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="742.127"
@@ -850,7 +850,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="838.376"
@@ -858,7 +858,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="934.626"
@@ -866,7 +866,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1030.88"
@@ -874,7 +874,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1127.12"
@@ -882,7 +882,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1222.87"
@@ -890,7 +890,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="1319.62"
@@ -898,7 +898,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1415.87"
@@ -906,7 +906,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="164.631"
@@ -914,7 +914,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="260.88"
@@ -922,7 +922,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="357.13"
@@ -930,7 +930,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="453.379"
@@ -938,7 +938,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="549.628"
@@ -946,7 +946,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="645.878"
@@ -954,7 +954,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="742.127"
@@ -962,7 +962,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="838.376"
@@ -970,7 +970,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="934.626"
@@ -978,7 +978,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1030.88"
@@ -986,7 +986,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1126.62"
@@ -994,7 +994,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="1223.37"
@@ -1002,7 +1002,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1319.12"
@@ -1010,7 +1010,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="1415.87"
@@ -1018,7 +1018,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="164.631"
@@ -1026,7 +1026,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="260.88"
@@ -1034,7 +1034,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="357.13"
@@ -1042,7 +1042,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="453.379"
@@ -1050,7 +1050,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="549.628"
@@ -1058,7 +1058,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="645.878"
@@ -1066,7 +1066,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="742.127"
@@ -1074,7 +1074,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="838.376"
@@ -1082,7 +1082,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="934.626"
@@ -1090,7 +1090,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1030.37"
@@ -1098,7 +1098,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="1127.12"
@@ -1106,7 +1106,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1222.87"
@@ -1114,7 +1114,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="1319.62"
@@ -1122,7 +1122,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1415.37"
@@ -1130,7 +1130,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="164.631"
@@ -1138,7 +1138,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="260.88"
@@ -1146,7 +1146,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="357.13"
@@ -1154,7 +1154,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="453.379"
@@ -1162,7 +1162,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="549.628"
@@ -1170,7 +1170,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="645.878"
@@ -1178,7 +1178,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="742.127"
@@ -1186,7 +1186,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="838.376"
@@ -1194,7 +1194,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="934.626"
@@ -1202,7 +1202,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1030.88"
@@ -1210,7 +1210,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1126.62"
@@ -1218,7 +1218,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="1223.37"
@@ -1226,7 +1226,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1319.12"
@@ -1234,7 +1234,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="1415.87"
@@ -1242,7 +1242,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
           </g>
         </mask>
@@ -1283,7 +1283,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="132.756"
@@ -1291,7 +1291,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="229.005"
@@ -1299,7 +1299,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="325.255"
@@ -1307,7 +1307,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="421.504"
@@ -1315,7 +1315,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="517.753"
@@ -1323,7 +1323,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="614.003"
@@ -1331,7 +1331,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="710.252"
@@ -1339,7 +1339,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="806.501"
@@ -1347,7 +1347,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="902.751"
@@ -1355,7 +1355,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="999"
@@ -1363,7 +1363,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1095.25"
@@ -1371,7 +1371,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1191.5"
@@ -1379,7 +1379,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1287.75"
@@ -1387,7 +1387,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1384"
@@ -1395,7 +1395,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="36.5065"
@@ -1403,7 +1403,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="132.756"
@@ -1411,7 +1411,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="229.005"
@@ -1419,7 +1419,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="325.255"
@@ -1427,7 +1427,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="421.504"
@@ -1435,7 +1435,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="517.753"
@@ -1443,7 +1443,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="614.003"
@@ -1451,7 +1451,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="710.252"
@@ -1459,7 +1459,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="806.501"
@@ -1467,7 +1467,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="902.751"
@@ -1475,7 +1475,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="999"
@@ -1483,7 +1483,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1095.25"
@@ -1491,7 +1491,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1191.5"
@@ -1499,7 +1499,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1287.75"
@@ -1507,7 +1507,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1384"
@@ -1515,7 +1515,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="36.5065"
@@ -1523,7 +1523,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="132.756"
@@ -1531,7 +1531,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="229.005"
@@ -1539,7 +1539,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="325.255"
@@ -1547,7 +1547,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="421.504"
@@ -1555,7 +1555,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="517.753"
@@ -1563,7 +1563,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="614.003"
@@ -1571,7 +1571,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="710.252"
@@ -1579,7 +1579,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="806.501"
@@ -1587,7 +1587,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="902.751"
@@ -1595,7 +1595,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="999"
@@ -1603,7 +1603,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1095.25"
@@ -1611,7 +1611,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1191.5"
@@ -1619,7 +1619,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1287.75"
@@ -1627,7 +1627,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1384"
@@ -1635,7 +1635,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="36.5065"
@@ -1643,7 +1643,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="132.756"
@@ -1651,7 +1651,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="229.005"
@@ -1659,7 +1659,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="325.255"
@@ -1667,7 +1667,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="421.504"
@@ -1675,7 +1675,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="517.753"
@@ -1683,7 +1683,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="614.003"
@@ -1691,7 +1691,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="710.252"
@@ -1699,7 +1699,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="806.501"
@@ -1707,7 +1707,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="902.751"
@@ -1715,7 +1715,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="999"
@@ -1723,7 +1723,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1095.25"
@@ -1731,7 +1731,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1191.5"
@@ -1739,7 +1739,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1287.75"
@@ -1747,7 +1747,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1384"
@@ -1755,7 +1755,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="36.5065"
@@ -1763,7 +1763,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="132.756"
@@ -1771,7 +1771,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="229.005"
@@ -1779,7 +1779,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="325.255"
@@ -1787,7 +1787,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="421.504"
@@ -1795,7 +1795,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="517.247"
@@ -1803,7 +1803,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="614.003"
@@ -1811,7 +1811,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="710.252"
@@ -1819,7 +1819,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="806.501"
@@ -1827,7 +1827,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="902.751"
@@ -1835,7 +1835,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="999"
@@ -1843,7 +1843,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1095.25"
@@ -1851,7 +1851,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1190.99"
@@ -1859,7 +1859,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="1287.75"
@@ -1867,7 +1867,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1383.49"
@@ -1875,7 +1875,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="36.5065"
@@ -1883,7 +1883,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="132.756"
@@ -1891,7 +1891,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="229.005"
@@ -1899,7 +1899,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="325.255"
@@ -1907,7 +1907,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="420.997"
@@ -1915,7 +1915,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="517.753"
@@ -1923,7 +1923,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="613.496"
@@ -1931,7 +1931,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="710.252"
@@ -1939,7 +1939,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="806.501"
@@ -1947,7 +1947,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="902.751"
@@ -1955,7 +1955,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="999"
@@ -1963,7 +1963,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1094.74"
@@ -1971,7 +1971,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="1191.5"
@@ -1979,7 +1979,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1287.24"
@@ -1987,7 +1987,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="1384"
@@ -1995,7 +1995,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="36.5065"
@@ -2003,7 +2003,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="132.756"
@@ -2011,7 +2011,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="229.005"
@@ -2019,7 +2019,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="324.748"
@@ -2027,7 +2027,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="421.504"
@@ -2035,7 +2035,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="517.247"
@@ -2043,7 +2043,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="614.003"
@@ -2051,7 +2051,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="710.252"
@@ -2059,7 +2059,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="806.501"
@@ -2067,7 +2067,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="902.751"
@@ -2075,7 +2075,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="999"
@@ -2083,7 +2083,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1095.25"
@@ -2091,7 +2091,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1190.99"
@@ -2099,7 +2099,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="1287.75"
@@ -2107,7 +2107,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1384"
@@ -2115,7 +2115,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="36.5065"
@@ -2123,7 +2123,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="132.756"
@@ -2131,7 +2131,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="229.005"
@@ -2139,7 +2139,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="325.255"
@@ -2147,7 +2147,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="421.504"
@@ -2155,7 +2155,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="517.753"
@@ -2163,7 +2163,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="614.003"
@@ -2171,7 +2171,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="710.252"
@@ -2179,7 +2179,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="806.501"
@@ -2187,7 +2187,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="902.751"
@@ -2195,7 +2195,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="999"
@@ -2203,7 +2203,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1095.25"
@@ -2211,7 +2211,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1191.5"
@@ -2219,7 +2219,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1287.75"
@@ -2227,7 +2227,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1384"
@@ -2235,7 +2235,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="36.5065"
@@ -2243,7 +2243,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="132.756"
@@ -2251,7 +2251,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="229.005"
@@ -2259,7 +2259,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="325.255"
@@ -2267,7 +2267,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="421.504"
@@ -2275,7 +2275,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="517.753"
@@ -2283,7 +2283,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="614.003"
@@ -2291,7 +2291,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="710.252"
@@ -2299,7 +2299,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="806.501"
@@ -2307,7 +2307,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="902.751"
@@ -2315,7 +2315,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="999"
@@ -2323,7 +2323,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1094.74"
@@ -2331,7 +2331,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="1191.5"
@@ -2339,7 +2339,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1287.75"
@@ -2347,7 +2347,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1384"
@@ -2355,7 +2355,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="36.5065"
@@ -2363,7 +2363,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="132.756"
@@ -2371,7 +2371,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="229.005"
@@ -2379,7 +2379,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="325.255"
@@ -2387,7 +2387,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="421.504"
@@ -2395,7 +2395,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="517.753"
@@ -2403,7 +2403,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="614.003"
@@ -2411,7 +2411,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="710.252"
@@ -2419,7 +2419,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="806.501"
@@ -2427,7 +2427,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="902.751"
@@ -2435,7 +2435,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="998.493"
@@ -2443,7 +2443,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="1095.25"
@@ -2451,7 +2451,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1190.99"
@@ -2459,7 +2459,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="1287.75"
@@ -2467,7 +2467,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1383.49"
@@ -2475,7 +2475,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="36.5065"
@@ -2483,7 +2483,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="132.756"
@@ -2491,7 +2491,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="229.005"
@@ -2499,7 +2499,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="325.255"
@@ -2507,7 +2507,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="421.504"
@@ -2515,7 +2515,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="517.753"
@@ -2523,7 +2523,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="614.003"
@@ -2531,7 +2531,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="710.252"
@@ -2539,7 +2539,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="806.501"
@@ -2547,7 +2547,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="902.244"
@@ -2555,7 +2555,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="999"
@@ -2563,7 +2563,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1094.74"
@@ -2571,7 +2571,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="1191.5"
@@ -2579,7 +2579,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
             <rect
               x="1287.24"
@@ -2587,7 +2587,7 @@ const BackgroundContact = () => {
               width="97.2625"
               height="97.2625"
               fill="white"
-              fill-opacity="0.13"
+              fillOpacity="0.13"
             />
             <rect
               x="1384"
@@ -2595,7 +2595,7 @@ const BackgroundContact = () => {
               width="96.2493"
               height="96.2493"
               stroke="white"
-              stroke-width="1.01315"
+              strokeWidth="1.01315"
             />
           </g>
         </mask>
@@ -2667,7 +2667,7 @@ const BackgroundContact = () => {
           <path
             d="M742.5 616C1466.82 616 2054 1203.18 2054 1927.5C2054 2651.82 1466.82 3239 742.5 3239C18.1785 3239 -569 2651.82 -569 1927.5C-569 1203.18 18.1785 616 742.5 616ZM776.234 1187.71C357.873 1187.71 18.7246 1526.86 18.7246 1945.22C18.7248 2363.58 357.874 2702.73 776.234 2702.73C1194.6 2702.73 1533.74 2363.58 1533.74 1945.22C1533.74 1526.86 1194.6 1187.71 776.234 1187.71Z"
             fill="url(#paint0_linear_287_10848)"
-            shape-rendering="crispEdges"
+            shapeRendering="crispEdges"
           />
           <path
             d="M776.234 1187.71V1180.33V1187.71ZM18.7246 1945.22H11.3463H18.7246ZM776.234 2702.73V2710.11V2702.73ZM1533.74 1945.22H1541.12H1533.74ZM742.5 616V623.378C1462.75 623.378 2046.62 1207.25 2046.62 1927.5H2054H2061.38C2061.38 1199.1 1470.9 608.622 742.5 608.622V616ZM2054 1927.5H2046.62C2046.62 2647.75 1462.75 3231.62 742.5 3231.62V3239V3246.38C1470.9 3246.38 2061.38 2655.9 2061.38 1927.5H2054ZM742.5 3239V3231.62C22.2535 3231.62 -561.622 2647.75 -561.622 1927.5H-569H-576.378C-576.378 2655.9 14.1036 3246.38 742.5 3246.38V3239ZM-569 1927.5H-561.622C-561.622 1207.25 22.2535 623.378 742.5 623.378V616V608.622C14.1036 608.622 -576.378 1199.1 -576.378 1927.5H-569ZM776.234 1187.71V1180.33C353.799 1180.33 11.3463 1522.78 11.3463 1945.22H18.7246H26.103C26.103 1530.93 361.948 1195.09 776.234 1195.09V1187.71ZM18.7246 1945.22H11.3463C11.3464 2367.65 353.799 2710.11 776.234 2710.11V2702.73V2695.35C361.948 2695.35 26.1031 2359.5 26.103 1945.22H18.7246ZM776.234 2702.73V2710.11C1198.67 2710.11 1541.12 2367.65 1541.12 1945.22H1533.74H1526.37C1526.37 2359.5 1190.52 2695.35 776.234 2695.35V2702.73ZM1533.74 1945.22H1541.12C1541.12 1522.78 1198.67 1180.33 776.234 1180.33V1187.71V1195.09C1190.52 1195.09 1526.37 1530.93 1526.37 1945.22H1533.74Z"
@@ -2692,9 +2692,9 @@ const BackgroundContact = () => {
           width="491.059"
           height="446.188"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -2713,9 +2713,9 @@ const BackgroundContact = () => {
           width="591.198"
           height="495.992"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -2734,9 +2734,9 @@ const BackgroundContact = () => {
           width="559.134"
           height="508.042"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -2755,9 +2755,9 @@ const BackgroundContact = () => {
           width="673.155"
           height="564.751"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -2776,9 +2776,9 @@ const BackgroundContact = () => {
           width="1609.12"
           height="697.641"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -2797,9 +2797,9 @@ const BackgroundContact = () => {
           width="1840.31"
           height="754.343"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -2818,9 +2818,9 @@ const BackgroundContact = () => {
           width="3745.46"
           height="778.25"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -2839,9 +2839,9 @@ const BackgroundContact = () => {
           width="2778.68"
           height="2778.68"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -2874,9 +2874,9 @@ const BackgroundContact = () => {
           width="1162"
           height="1162"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -2896,8 +2896,8 @@ const BackgroundContact = () => {
           y2="897.246"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" />
-          <stop offset="1" stop-color="#221F22" stop-opacity="0" />
+          <stop stopColor="#D9D9D9" />
+          <stop offset="1" stopColor="#221F22" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_287_10848"
@@ -2907,8 +2907,8 @@ const BackgroundContact = () => {
           y2="903.391"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#443C44" stop-opacity="0" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#443C44" stopOpacity="0" />
         </linearGradient>
         <radialGradient
           id="paint2_radial_287_10848"
@@ -2918,8 +2918,8 @@ const BackgroundContact = () => {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1474 291) rotate(90) scale(281)"
         >
-          <stop offset="0.390625" stop-color="#4DEC96" />
-          <stop offset="1" stop-color="#4DEC96" stop-opacity="0" />
+          <stop offset="0.390625" stopColor="#4DEC96" />
+          <stop offset="1" stopColor="#4DEC96" stopOpacity="0" />
         </radialGradient>
         <clipPath id="clip0_287_10848">
           <rect width="1440" height="949" fill="white" />

@@ -11,11 +11,12 @@ const GlobalStyle = createGlobalStyle`
     width: 100vw;
     height: 100vh;
     color: white;
+    overflow-x: hidden;
   }
 
   body{
     font-family: "Inter", sans-serif;
-    overflow-x: hidden;
+   
     background:#060018;
   }
 
