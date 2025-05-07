@@ -5,12 +5,16 @@ const Feedback = () => {
     <StyledFeedback>
       <h1>Feedback that inspires</h1>
       <StyledContainer>
-        <FeedBack>
-          "Nino truly understands how to <br /> turn complex ideas into simple,
-          <br />
-          elegant designs. Working with her <br /> was seamless and inspiring "
-        </FeedBack>
-        <div>
+        <Container>
+          <FeedBack style={{ transform: "rotate(-5deg)" }}>
+            <p>
+              "Nino truly understands how to turn complex ideas into simple,
+              elegant designs. Working with her was seamless and inspiring."
+            </p>
+            <SmallText>Startup Founder</SmallText>
+          </FeedBack>
+        </Container>
+        <Container>
           <svg
             width="150"
             height="152"
@@ -108,8 +112,8 @@ const Feedback = () => {
               </clipPath>
             </defs>
           </svg>
-        </div>
-        <div>
+        </Container>
+        <Container>
           <svg
             width="150"
             height="152"
@@ -193,19 +197,29 @@ const Feedback = () => {
               </filter>
             </defs>
           </svg>
-        </div>
-        <FeedBack>
-          "Nino turned complexity into clarity with <br /> her elegant design
-          sense, making our project not just work—but shine. <br />
-          Her eye for detail brought everything to life."
-        </FeedBack>
-
-        <FeedBack>
-          "Nino truly understands how to <br /> turn complex ideas into simple,
-          <br />
-          elegant designs. Working with her <br /> was seamless and inspiring "
-        </FeedBack>
-        <div>
+        </Container>
+        <Container>
+          <FeedBack style={{ transform: "rotate(5deg)" }}>
+            <p>
+              "Nino turned complexity into clarity with her elegant design
+              sense, making our project not just work—but shine. Her eye for
+              detail brought everything to life."
+            </p>
+            <SmallText>Creative Director, Marketing Agency</SmallText>
+          </FeedBack>
+        </Container>
+        <Container>
+          <FeedBack style={{ transform: "rotate(-5deg)" }}>
+            <p>
+              "Nino is a highly skilled front-end developer. Her dedication to
+              delivering excellent results was truly impressive. She's
+              detail-oriented, proactive, and consistently brings great energy
+              to the team."
+            </p>
+            <SmallText>Team Lead, Software Company</SmallText>
+          </FeedBack>
+        </Container>
+        <Container>
           <svg
             width="150"
             height="152"
@@ -301,7 +315,7 @@ const Feedback = () => {
               </filter>
             </defs>
           </svg>
-        </div>
+        </Container>
       </StyledContainer>
     </StyledFeedback>
   );
@@ -310,7 +324,7 @@ export default Feedback;
 
 const StyledFeedback = styled.div`
   font-family: "Urbanist", sans-serif;
-  height: 140vh;
+  height: 160vh;
   padding-top: 8rem;
   background-color: white;
   position: relative;
@@ -325,9 +339,8 @@ const StyledFeedback = styled.div`
   }
 `;
 const StyledContainer = styled.div`
-  border: 1px solid red;
   height: 70%;
-  width: 70%;
+  width: 60%;
   position: absolute;
   left: 50%;
   top: 25%;
@@ -335,10 +348,33 @@ const StyledContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 3rem;
 `;
 
 const FeedBack = styled.div`
   border: 1px solid #1a1a1a12;
-  box-shadow: 0px 16px 17px 0px #1a1a1a0a;
+  box-shadow: 0px 16px 17px 0px #1a1a1a1c;
   color: black;
+  width: 90%;
+  padding: 2rem 2rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 124%;
+  letter-spacing: -1%;
+  text-align: center;
+`;
+const Container = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+const SmallText = styled.p`
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 148%;
+  letter-spacing: 0%;
+  border-top: 1px solid grey;
+  margin-top: 1rem;
+  padding-top: 1rem;
 `;
