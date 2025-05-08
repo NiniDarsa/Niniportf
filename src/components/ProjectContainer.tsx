@@ -14,23 +14,25 @@ const ProjectContainer = () => {
               <a href="https://github.com/NiniDarsa/react-job-board">GitHub</a>
             </button>
             <button>Live Demo</button>
-            <button>
-              <svg
-                width="13"
-                height="12"
-                viewBox="0 0 13 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M1.60376 11L11.6038 1M11.6038 1H1.60376M11.6038 1V11"
-                  stroke="#CDFF65"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </button>
+            <a href={"#1"}>
+              <button>
+                <svg
+                  width="13"
+                  height="12"
+                  viewBox="0 0 13 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.60376 11L11.6038 1M11.6038 1H1.60376M11.6038 1V11"
+                    stroke="#CDFF65"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+            </a>
           </ButtonContainer>
         </StyledContainer>
       </Card>
@@ -43,23 +45,25 @@ const ProjectContainer = () => {
               <a href="https://github.com/NiniDarsa/schedule">GitHub</a>
             </button>
             <button>Live Demo</button>
-            <button>
-              <svg
-                width="13"
-                height="12"
-                viewBox="0 0 13 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M1.60376 11L11.6038 1M11.6038 1H1.60376M11.6038 1V11"
-                  stroke="#CDFF65"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </button>
+            <a href={"#2"}>
+              <button>
+                <svg
+                  width="13"
+                  height="12"
+                  viewBox="0 0 13 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.60376 11L11.6038 1M11.6038 1H1.60376M11.6038 1V11"
+                    stroke="#CDFF65"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+            </a>
           </ButtonContainer>
         </StyledContainer>
       </Card>
@@ -73,23 +77,25 @@ const ProjectContainer = () => {
               <a href="https://github.com/NiniDarsa/word-count">GitHub</a>
             </button>
             <button>Live Demo</button>
-            <button>
-              <svg
-                width="13"
-                height="12"
-                viewBox="0 0 13 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M1.60376 11L11.6038 1M11.6038 1H1.60376M11.6038 1V11"
-                  stroke="#CDFF65"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </button>
+            <a href={"#3"}>
+              <button>
+                <svg
+                  width="13"
+                  height="12"
+                  viewBox="0 0 13 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.60376 11L11.6038 1M11.6038 1H1.60376M11.6038 1V11"
+                    stroke="#CDFF65"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+            </a>
           </ButtonContainer>
         </StyledContainer>
       </Card>
@@ -97,8 +103,6 @@ const ProjectContainer = () => {
       <Card>
         <SvgContainer>
           <StyledNpm
-            // width="74"
-            // height="338"
             viewBox="0 0 784 638"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -147,24 +151,30 @@ const ProjectContainer = () => {
                 GitHub
               </a>
             </button>
-            <button>Live Demo</button>
             <button>
-              <svg
-                width="13"
-                height="12"
-                viewBox="0 0 13 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M1.60376 11L11.6038 1M11.6038 1H1.60376M11.6038 1V11"
-                  stroke="#CDFF65"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
+              <a href="https://www.npmjs.com/package/react-ui-elements-drs">
+                NPM
+              </a>
             </button>
+            <a href={"#4"}>
+              <button>
+                <svg
+                  width="13"
+                  height="12"
+                  viewBox="0 0 13 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.60376 11L11.6038 1M11.6038 1H1.60376M11.6038 1V11"
+                    stroke="#CDFF65"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+            </a>
           </ButtonContainer>
         </StyledContainer>
       </Card>

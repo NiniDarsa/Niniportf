@@ -103,7 +103,6 @@ const Projects = () => {
       <ProjectContainer />
       <Stars left="-200px" bottom="10px" />
       <Stars left="-200px" bottom="9px" />
-      <Stars right="-150px" bottom="-100px" />
     </StyledProjects>
   );
 };
