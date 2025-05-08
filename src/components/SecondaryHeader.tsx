@@ -29,4 +29,7 @@ const StyledSecondaryHeader = styled.div`
     font-size: 14px;
     padding: 0rem 1rem;
   }
+  @media (max-width: 320px) {
+    font-size: 12px;
+  }
 `;

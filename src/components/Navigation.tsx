@@ -183,6 +183,9 @@ const StyledLi = styled.li`
   width: 10rem;
   border-right: 1px solid grey;
 
+  @media (max-width: 750px) {
+    border-right: none;
+  }
   button {
     width: 100%;
     height: 100%;

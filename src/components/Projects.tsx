@@ -162,7 +162,7 @@ const StyledProjects = styled.div`
     text-align: center;
     color: #ffffffa1;
     transform: rotate(15deg);
-    left: 40%;
+    left: 39%;
     top: 14%;
     position: absolute;
     z-index: 2;

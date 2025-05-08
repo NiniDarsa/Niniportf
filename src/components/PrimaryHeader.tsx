@@ -46,11 +46,13 @@ const StyledLittleHeader = styled.h3`
   font-weight: 400;
   font-size: 21.4px;
   line-height: 96%;
-  letter-spacing: 0%;
   text-align: center;
   color: #ffffffa1;
   transform: translate(30px, -45px) rotate(-8deg);
   @media (max-width: 1100px) {
     font-size: 20px;
+  }
+  @media (max-width: 500px) {
+    transform: translate(40px, -35px) rotate(-8deg);
   }
 `;

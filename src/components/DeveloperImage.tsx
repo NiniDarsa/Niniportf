@@ -782,7 +782,7 @@ const StyledSvg = styled.svg`
   width: 511px;
   height: 512px;
   transform: translateY(4%);
-  @media (max-width: 650px) {
+  @media (max-width: 670px) {
     width: 400px;
     height: 514px;
   }

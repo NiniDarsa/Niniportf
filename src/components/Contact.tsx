@@ -2,6 +2,8 @@ import styled from "styled-components";
 import BackgroundContact from "./BackgroundContact";
 import Stars from "./Stars";
 import useScrollToSectionContext from "../Context/useScrollToSection";
+import { useState } from "react";
+import toast, { Toaster } from "react-hot-toast";
 
 const Contact = () => {
   const {
@@ -13,6 +15,38 @@ const Contact = () => {
     sectionProjects,
     sectionSkills,
   } = useScrollToSectionContext();
+
+  //submit
+  const [_, setSubmitted] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    const form = e.currentTarget; //`form` refers to the form element itself
+    const formData = new FormData(form); //Collect form data. FormData is a built-in JavaScript object that collects all the data from the form (the input, textarea, select, etc. elements) and prepares it for submission.
+    //You can now use the formData for whatever you want, like sending to a backend
+
+    //sendinf form Data to formspree
+    try {
+      const response = await fetch("https://formspree.io/f/xeogknad", {
+        method: "POST",
+        body: formData, //The body of the request contains the formData, which is the user’s data from the form.
+        headers: {
+          Accept: "application/json",
+        },
+      });
+      //now, handling response from formspree
+      if (response.ok) {
+        setSubmitted(true); //set state
+        form.reset(); //clears the form fields after successfull submition
+        toast.success("Your message has been sent!");
+      } else {
+        alert("There was an issue sending your message."); //if response isn't successful message will come
+      }
+    } catch (error) {
+      toast.error("Something went wrong. Try again later.");
+    }
+  };
 
   return (
     <StyledContact ref={sectionContact}>
@@ -94,18 +128,46 @@ const Contact = () => {
         </div>
         <div className="grid-item">
           <h1>Let's Connect</h1>
-          <form>
-            <input type="text" placeholder="Enter your name" />
-            <input type="text" placeholder="Enter your email" />
-            <textarea placeholder="How can I help you" />
-            <button>Send Message</button>
+          {/* {submitted ? (
+            <p style={{ color: "green" }}>✅ Your message has been sent!</p>
+          ) : ( */}
+          <form
+            action="https://formspree.io/f/xeogknad"
+            method="POST"
+            onSubmit={handleSubmit}
+          >
+            {/* Honeypot (anti-bot) field */}
+            <input type="text" name="_gotcha" style={{ display: "none" }} />
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter your name *"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your email *"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="How can I help you? *"
+              required
+            />
+
+            <button type="submit">Send Message</button>
           </form>
+          ){/* } */}
         </div>
         <div className="grid-item">
           <p>
             <span> &copy;</span> 2025, Nino Darsavlidze
           </p>
         </div>
+      </div>
+      <div>
+        <Toaster position="bottom-right" reverseOrder={false} />
       </div>
     </StyledContact>
   );
@@ -138,7 +200,6 @@ const StyledContact = styled.div`
     }
     @media (max-width: 1100px) {
       width: 95%;
-      /* display: grid; */
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 2fr 2fr 1fr;
     }
@@ -266,15 +327,17 @@ const StyledContact = styled.div`
       padding: 1.5rem 0;
       position: relative;
       z-index: 2;
-      input,
+
+      input:not(:first-child),
       textarea {
         background: #1f1838;
         border: 1px solid #ffffff1f;
+        color: white;
         border-radius: 1rem;
         height: 48px;
         padding: 2px 20px;
         width: 100%;
-        &:nth-child(3) {
+        &:nth-child(4) {
           height: 8rem;
           vertical-align: top;
           position: relative;
@@ -391,6 +454,7 @@ const StyleInfo = styled.div`
   align-items: center;
   @media (max-width: 1100px) {
     flex-direction: column;
+    height: 100%;
   }
   a {
     display: block;
@@ -410,9 +474,6 @@ const StyleInfo = styled.div`
     position: relative;
     z-index: 2;
     transition: all 0.4s ease;
-    @media (max-width: 1100px) {
-      height: 2rem;
-    }
 
     &:hover {
       background: linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);

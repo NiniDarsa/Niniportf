@@ -248,5 +248,8 @@ const StyledBox = styled(motion.div)`
     @media (max-width: 750px) {
       font-size: 20px;
     }
+    @media (max-width: 350px) {
+      font-size: 15px;
+    }
   }
 `;

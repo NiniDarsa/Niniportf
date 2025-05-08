@@ -32,6 +32,12 @@ const StyledBtnContainer = styled.div`
       width: 8rem;
       height: 3.5rem;
     }
+    @media (max-width: 350px) {
+      width: 6rem;
+      height: 2.5rem;
+      font-size: 0.6rem;
+      margin-top: 2rem;
+    }
   }
   @media (max-width: 1100px) {
     margin: auto;

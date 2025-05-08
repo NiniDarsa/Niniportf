@@ -390,6 +390,9 @@ const FeedBack = styled.div`
   line-height: 124%;
   letter-spacing: -1%;
   text-align: center;
+  @media (max-width: 350px) {
+    font-size: 15px;
+  }
 `;
 const Container = styled.div`
   display: flex;
