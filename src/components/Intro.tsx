@@ -5,15 +5,22 @@ import Background from "./Background";
 import Navigation from "./Navigation";
 import MouseSvg from "./MouseSvg";
 import Stars from "./Stars";
+import useScrollToSectionContext from "../Context/useScrollToSection";
+import { useState } from "react";
 
 const Intro = () => {
+  const { sectionHome } = useScrollToSectionContext();
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <StyledIntro>
-      <Stars left="-150px" top="100px" />
-      <Stars left="-150px" />
-      <Navigation />
+    <StyledIntro ref={sectionHome}>
+      <>
+        <Stars left="-150px" top="100px" />
+        <Stars left="-150px" />
+      </>
+      <Navigation isOpen={isOpen} setIsOpen={setIsOpen} />
       <Background />
-      <StyledContainer>
+      <StyledContainer $isopen={isOpen}>
         <Header />
         <DeveloperImage />
       </StyledContainer>
@@ -29,9 +36,18 @@ const StyledIntro = styled.div`
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  @media (max-width: 1100px) {
+    height: 200vh;
+  }
+  @media (max-width: 650px) {
+    height: 190vh;
+  }
+  @media (max-width: 450px) {
+    height: 180vh;
+  }
 `;
 
-const StyledContainer = styled.div`
+const StyledContainer = styled.div<{ $isopen: boolean }>`
   width: 100%;
   height: 100%;
   display: flex;
@@ -39,4 +55,12 @@ const StyledContainer = styled.div`
   align-items: center;
   position: absolute;
   z-index: 2;
+  @media (max-width: 1100px) {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 8rem;
+  }
+  @media (max-width: 750px) {
+    padding-top: ${({ $isopen }) => ($isopen ? "3rem" : "8rem")};
+  }
 `;

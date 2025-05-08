@@ -1,8 +1,11 @@
 import styled from "styled-components";
 import AboutImage from "./AboutImage";
 import { motion } from "motion/react";
+import useIntersectionObserver from "../Hooks/useIntersectionObserver";
 
 const AboutContainer = () => {
+  const inView = useIntersectionObserver("about");
+
   const box1 = {
     hidden: {
       y: -200,
@@ -121,13 +124,13 @@ const AboutContainer = () => {
     }, // Final position (at the bottom)
   };
   return (
-    <StyledContainer>
+    <StyledContainer id="about">
       <div>
         <StyledBox
           variants={box1}
           initial="hidden"
-          // animate={inView ? "show" : "hidden"}
-          animate="show"
+          animate={inView ? "show" : "hidden"}
+          // animate="show"
           style={{ transform: "translateX(-10px) rotate(4deg)", zIndex: 3 }}
         >
           <h3>Speciality:</h3>
@@ -137,8 +140,8 @@ const AboutContainer = () => {
         <StyledBox
           variants={box2}
           initial="hidden"
-          // animate={inView ? "show" : "hidden"}
-          animate="show"
+          animate={inView ? "show" : "hidden"}
+          // animate="show"
           style={{
             transform: " translateX(40px) rotate(-7deg)",
             zIndex: 2,
@@ -151,8 +154,8 @@ const AboutContainer = () => {
         <StyledBox
           variants={box3}
           initial="hidden"
-          // animate={inView ? "show" : "hidden"}
-          animate="show"
+          animate={inView ? "show" : "hidden"}
+          // animate="show"
           style={{ zIndex: 1 }}
         >
           <h3>Projects:</h3>
@@ -164,8 +167,8 @@ const AboutContainer = () => {
         <StyledBox
           variants={box4}
           initial="hidden"
-          // animate={inView ? "show" : "hidden"}
-          animate="show"
+          animate={inView ? "show" : "hidden"}
+          // animate="show"
           style={{
             transform: "rotate(5deg)",
             zIndex: 3,
@@ -178,8 +181,8 @@ const AboutContainer = () => {
         <StyledBox
           variants={box5}
           initial="hidden"
-          // animate={inView ? "show" : "hidden"}
-          animate="show"
+          animate={inView ? "show" : "hidden"}
+          // animate="show"
           style={{
             transform: " translateX(10px) rotate(14deg)",
             zIndex: 2,
@@ -192,8 +195,8 @@ const AboutContainer = () => {
         <StyledBox
           variants={box6}
           initial="hidden"
-          // animate={inView ? "show" : "hidden"}
-          animate="show"
+          animate={inView ? "show" : "hidden"}
+          // animate="show"
           style={{
             transform: "rotate(4deg)",
             zIndex: 1,
@@ -214,6 +217,9 @@ const StyledContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: 1100px) {
+    width: 100%;
+  }
 `;
 const StyledBox = styled(motion.div)`
   box-shadow: 0px 16px 17px 0px #1a1a1a0a;
@@ -236,5 +242,11 @@ const StyledBox = styled(motion.div)`
     font-size: 32px;
     line-height: 116%;
     letter-spacing: -3%;
+    @media (max-width: 1100px) {
+      font-size: 25px;
+    }
+    @media (max-width: 750px) {
+      font-size: 20px;
+    }
   }
 `;

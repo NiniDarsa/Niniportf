@@ -1,8 +1,11 @@
 import styled from "styled-components";
+import useScrollToSectionContext from "../Context/useScrollToSection";
 
 const Feedback = () => {
+  const { sectionFeedBack } = useScrollToSectionContext();
+
   return (
-    <StyledFeedback>
+    <StyledFeedback ref={sectionFeedBack}>
       <h1>Feedback that inspires</h1>
       <StyledContainer>
         <Container>
@@ -32,7 +35,7 @@ const Feedback = () => {
                 transform="rotate(5 20.4576 0.406738)"
                 fill="#1A1A1A"
               />
-              <g clip-path="url(#clip0_322_22160)">
+              <g clipPath="url(#clip0_322_22160)">
                 <path
                   d="M78.0785 50.9129C78.883 50.2104 79.922 49.867 80.9648 49.9583C85.6561 50.3687 90.0772 50.7555 94.4311 51.1364C103.188 51.9026 106.609 63.3003 99.8538 69.2001L85.1385 82.0514C84.463 82.6414 83.4442 82.0925 83.5239 81.1815L84.6051 68.8233L86.3056 67.3381C87.6567 66.1581 86.9724 63.8785 85.221 63.7253L65.394 61.9907L78.0785 50.9129Z"
                   fill="white"
@@ -51,9 +54,9 @@ const Feedback = () => {
                 width="154.002"
                 height="154.002"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feColorMatrix
                   in="SourceAlpha"
                   type="matrix"
@@ -144,9 +147,9 @@ const Feedback = () => {
                 width="154.002"
                 height="154.002"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feColorMatrix
                   in="SourceAlpha"
                   type="matrix"
@@ -201,9 +204,9 @@ const Feedback = () => {
         <Container>
           <FeedBack style={{ transform: "rotate(5deg)" }}>
             <p>
-              "Nino turned complexity into clarity with her elegant design
-              sense, making our project not just work—but shine. Her eye for
-              detail brought everything to life."
+              "Nino delivered beautiful, responsive websites that exceeded our
+              expectations. Professional, creative, and reliable from start to
+              finish"
             </p>
             <SmallText>Creative Director, Marketing Agency</SmallText>
           </FeedBack>
@@ -211,8 +214,7 @@ const Feedback = () => {
         <Container>
           <FeedBack style={{ transform: "rotate(-5deg)" }}>
             <p>
-              "Nino is a highly skilled front-end developer. Her dedication to
-              delivering excellent results was truly impressive. She's
+              "Nino is a highly skilled front-end developer. She's
               detail-oriented, proactive, and consistently brings great energy
               to the team."
             </p>
@@ -262,9 +264,9 @@ const Feedback = () => {
                 width="154.002"
                 height="154.002"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feColorMatrix
                   in="SourceAlpha"
                   type="matrix"
@@ -336,6 +338,24 @@ const StyledFeedback = styled.div`
     letter-spacing: 0%;
     text-align: center;
     color: black;
+    @media (max-width: 1200px) {
+      font-size: 50px;
+    }
+  }
+  @media (max-width: 1200px) {
+    height: 210vh;
+  }
+  @media (max-width: 1100px) {
+    height: 200vh;
+  }
+  @media (max-width: 850px) {
+    height: 210vh;
+  }
+  @media (max-width: 650px) {
+    height: 250vh;
+  }
+  @media (max-width: 500px) {
+    height: 360vh;
   }
 `;
 const StyledContainer = styled.div`
@@ -349,6 +369,13 @@ const StyledContainer = styled.div`
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-row-gap: 3rem;
+
+  @media (max-width: 1200px) {
+    width: 90%;
+  }
+  @media (max-width: 700px) {
+    top: 15%;
+  }
 `;
 
 const FeedBack = styled.div`

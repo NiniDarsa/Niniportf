@@ -25,4 +25,8 @@ const StyledSecondaryHeader = styled.div`
   max-width: 633px;
   max-height: 78px;
   margin-top: 27px;
+  @media (max-width: 700px) {
+    font-size: 14px;
+    padding: 0rem 1rem;
+  }
 `;

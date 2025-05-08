@@ -106,7 +106,7 @@ const OtherSkills = () => {
 };
 export default OtherSkills;
 const StyledSkills = styled.div`
-  margin-top: 8rem;
+  margin-top: 10rem;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -118,6 +118,9 @@ const StyledDiv = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 950px) {
+    flex-direction: column;
+  }
 
   h4 {
     color: white;

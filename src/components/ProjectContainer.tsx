@@ -179,13 +179,31 @@ const StyleContainer = styled.div`
   gap: 5rem;
   position: absolute;
   z-index: 2;
+  @media (max-width: 1100px) {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  @media (max-width: 650px) {
+    gap: 5rem;
+  }
 `;
 const Card = styled.div`
   height: 24rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-
+  @media (max-width: 1200px) {
+    height: 22rem;
+  }
+  @media (max-width: 900px) {
+    height: 20rem;
+  }
+  @media (max-width: 650px) {
+    height: 15rem;
+  }
+  @media (max-width: 450px) {
+    height: 10rem;
+  }
   img {
     height: 80%;
     border-radius: 1rem;
@@ -213,6 +231,12 @@ const StyledContainer = styled.div`
     font-size: 21px;
     line-height: 120%;
     letter-spacing: -1%;
+    @media (max-width: 1100px) {
+      font-size: 18px;
+    }
+    @media (max-width: 600px) {
+      font-size: 12px;
+    }
   }
 `;
 const ButtonContainer = styled.div`
@@ -235,6 +259,18 @@ const ButtonContainer = styled.div`
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    @media (max-width: 650px) {
+      font-size: 9px;
+      height: 2.5rem;
+    }
+    @media (max-width: 600px) {
+      font-size: 7px;
+      height: 2rem;
+    }
+    @media (max-width: 450px) {
+      font-size: 5px;
+      height: 1rem;
+    }
 
     &:last-child {
       background-color: #243459;

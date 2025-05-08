@@ -1,10 +1,17 @@
 import styled from "styled-components";
+import useScrollToSectionContext from "../Context/useScrollToSection";
 
 const ButtonContainer = () => {
+  const { scrollToSection, sectionProjects, sectionContact } =
+    useScrollToSectionContext();
   return (
     <StyledBtnContainer>
-      <StyledButtonFirst>Start a Project</StyledButtonFirst>
-      <StyledButtonSecond>Explore a Work</StyledButtonSecond>
+      <StyledButtonFirst onClick={() => scrollToSection(sectionContact)}>
+        Start Collaboration
+      </StyledButtonFirst>
+      <StyledButtonSecond onClick={() => scrollToSection(sectionProjects)}>
+        Explore My Work
+      </StyledButtonSecond>
     </StyledBtnContainer>
   );
 };
@@ -20,6 +27,15 @@ const StyledBtnContainer = styled.div`
     color: white;
     cursor: pointer;
     transition: all 0.2s ease;
+
+    @media (max-width: 900px) {
+      width: 8rem;
+      height: 3.5rem;
+    }
+  }
+  @media (max-width: 1100px) {
+    margin: auto;
+    margin-top: 3rem;
   }
 `;
 const StyledButtonSecond = styled.button`

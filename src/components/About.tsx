@@ -1,18 +1,22 @@
 import styled from "styled-components";
 import AboutContainer from "./AboutContainer";
+import useScrollToSectionContext from "../Context/useScrollToSection";
 
 const About = () => {
+  const { sectionAbout, sectionSkills, scrollToSection } =
+    useScrollToSectionContext();
+
   return (
-    <StyledAbout>
+    <StyledAbout ref={sectionAbout}>
       <h1>Here's a bit about me</h1>
       <AboutContainer />
-      <button>My Skills</button>
+      <button onClick={() => scrollToSection(sectionSkills)}>My Skills</button>
     </StyledAbout>
   );
 };
 export default About;
 const StyledAbout = styled.div`
-  padding-top: 4rem;
+  padding-top: 7rem;
   padding-bottom: 6rem;
   display: flex;
   flex-direction: column;
@@ -52,5 +56,9 @@ const StyledAbout = styled.div`
     letter-spacing: -2%;
     text-align: center;
     margin-bottom: 2rem;
+
+    @media (max-width: 1100px) {
+      font-size: 45px;
+    }
   }
 `;

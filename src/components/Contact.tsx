@@ -1,10 +1,26 @@
 import styled from "styled-components";
 import BackgroundContact from "./BackgroundContact";
+import Stars from "./Stars";
+import useScrollToSectionContext from "../Context/useScrollToSection";
 
 const Contact = () => {
+  const {
+    sectionContact,
+    scrollToSection,
+    sectionAbout,
+    sectionFeedBack,
+    sectionHome,
+    sectionProjects,
+    sectionSkills,
+  } = useScrollToSectionContext();
+
   return (
-    <StyledContact>
-      <BackgroundContact />
+    <StyledContact ref={sectionContact}>
+      <>
+        <BackgroundContact />
+        <Stars top="-10px" left="-100px" />
+        <Stars top="-10px" right="-100px" />
+      </>
       <div className="grid-container">
         <div className="grid-item">
           <h2>
@@ -12,13 +28,22 @@ const Contact = () => {
             <br />
             product shine bright
           </h2>
+          <>
+            <button onClick={() => scrollToSection(sectionFeedBack)}>
+              See My FeedBacks
+            </button>
+          </>
         </div>
         <div className="grid-item">
           <ButtonContainer>
-            <button>Home</button>
-            <button>About</button>
-            <button>Skills</button>
-            <button>Works</button>
+            <button onClick={() => scrollToSection(sectionHome)}>Home</button>
+            <button onClick={() => scrollToSection(sectionAbout)}>About</button>
+            <button onClick={() => scrollToSection(sectionSkills)}>
+              Skills
+            </button>
+            <button onClick={() => scrollToSection(sectionProjects)}>
+              Works
+            </button>
           </ButtonContainer>
           <StyleInfo>
             <div>NnoDarsa700@gmail.com</div>
@@ -90,6 +115,9 @@ export default Contact;
 const StyledContact = styled.div`
   position: relative;
   font-family: "Urbanist", sans-serif;
+  @media (max-width: 1200px) {
+    height: 170vh;
+  }
 
   .grid-container {
     display: grid;
@@ -103,6 +131,17 @@ const StyledContact = styled.div`
     top: 10%;
     left: 50%;
     transform: translateX(-50%);
+
+    @media (max-width: 1200px) {
+      width: 80%;
+      height: 100%;
+    }
+    @media (max-width: 1100px) {
+      width: 95%;
+      /* display: grid; */
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 2fr 2fr 1fr;
+    }
   }
 
   .grid-item:nth-child(1) {
@@ -115,6 +154,34 @@ const StyledContact = styled.div`
     background: #ffffff;
     border: 1px solid #1a1a1a12;
     box-shadow: 0px 16px 17px 0px #1a1a1a0a;
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      background: #1a1a1a;
+      box-shadow: 0px 12px 12px 0px #1a1a1a26;
+      box-shadow: 0px 4px 6px 0px #ffffff59 inset;
+      color: white;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 142%;
+      padding: 1rem;
+      border-radius: 4rem;
+      cursor: pointer;
+      transition: all 0.4s ease;
+      @media (max-width: 1100px) {
+        font-size: 10px;
+        line-height: 130%;
+      }
+
+      &:hover {
+        background: #333333;
+        color: #ffffff;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2),
+          0px 4px 6px rgba(255, 255, 255, 0.4) inset;
+        transform: scale(1.05);
+      }
+    }
 
     h2 {
       color: black;
@@ -122,6 +189,9 @@ const StyledContact = styled.div`
       font-size: 2rem;
       line-height: 116%;
       letter-spacing: -3%;
+      @media (max-width: 800px) {
+        font-size: 1.5rem;
+      }
     }
   }
 
@@ -149,6 +219,13 @@ const StyledContact = styled.div`
           4px 50% no-repeat;
       background-repeat: no-repeat;
     }
+    @media (max-width: 1100px) {
+      display: flex;
+      justify-content: space-between;
+      grid-column: 1 / 3;
+      grid-row: 2;
+      height: 15rem;
+    }
   }
 
   .grid-item:nth-child(3) {
@@ -174,6 +251,11 @@ const StyledContact = styled.div`
         linear-gradient(to bottom, #c5a0cb 0%, #804b8d 23%, #090419) top left /
           4px 50% no-repeat;
       background-repeat: no-repeat;
+    }
+    @media (max-width: 1100px) {
+      grid-column: 1 / 3;
+      grid-row: 3;
+      height: 25rem;
     }
     form {
       width: 100%;
@@ -212,7 +294,16 @@ const StyledContact = styled.div`
         font-size: 14px;
         line-height: 142%;
         letter-spacing: 0%;
+        transition: all 0.4s ease;
+        &:hover {
+          background: linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
+          box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+          transform: scale(1.05);
+        }
       }
+    }
+    @media (max-width: 800px) {
+      font-size: 0.8rem;
     }
   }
 
@@ -225,7 +316,10 @@ const StyledContact = styled.div`
     border: 0px solid black;
     border-radius: 0.5rem;
     overflow: hidden;
-
+    @media (max-width: 1100px) {
+      grid-column: 1 / 3;
+      grid-row: 4;
+    }
     &:before {
       content: "";
       position: absolute;
@@ -265,6 +359,7 @@ const StyledContact = styled.div`
 const ButtonContainer = styled.div`
   display: flex;
   flex-direction: column;
+
   button {
     font-weight: 400;
     font-size: 210%;
@@ -276,6 +371,17 @@ const ButtonContainer = styled.div`
     text-align: left;
     cursor: pointer;
     z-index: 2;
+
+    &:hover {
+      font-weight: 600;
+      font-size: 220%;
+      color: #804b8d;
+      transform: translateY(-4px);
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    @media (max-width: 1100px) {
+      font-size: 120%;
+    }
   }
 `;
 const StyleInfo = styled.div`
@@ -283,6 +389,9 @@ const StyleInfo = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  @media (max-width: 1100px) {
+    flex-direction: column;
+  }
   a {
     display: block;
     height: 3rem;
@@ -300,6 +409,16 @@ const StyleInfo = styled.div`
     align-items: center;
     position: relative;
     z-index: 2;
+    transition: all 0.4s ease;
+    @media (max-width: 1100px) {
+      height: 2rem;
+    }
+
+    &:hover {
+      background: linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+      transform: scale(1.05);
+    }
     &:first-child {
       font-weight: 600;
       font-size: 14px;

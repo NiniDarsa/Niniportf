@@ -3,10 +3,13 @@ import BackgroundSecondary from "./BackgroundSecondary";
 import Skills from "./Skills";
 import OtherSkills from "./OtherSkills";
 import Stars from "./Stars";
+import useScrollToSectionContext from "../Context/useScrollToSection";
 
 const SkillSet = () => {
+  const { sectionSkills } = useScrollToSectionContext();
+
   return (
-    <StyledSkillSet>
+    <StyledSkillSet ref={sectionSkills}>
       <BackgroundSecondary />
       <h1>My Skills</h1>
       <p>
@@ -30,8 +33,8 @@ export default SkillSet;
 const StyledSkillSet = styled.div`
   font-family: "Urbanist", sans-serif;
   position: relative;
-  padding-top: 10rem;
-  height: 170vh; //
+  padding-top: 7rem;
+  height: 160vh;
   background-color: #060018;
   overflow: hidden;
   display: flex;
@@ -52,9 +55,15 @@ const StyledSkillSet = styled.div`
     text-align: center;
     color: #ffffffa1;
     position: absolute;
-    right: 14%;
+    right: 8%;
     top: 18%;
     transform: rotate(-10deg);
+    @media (max-width: 950px) {
+      top: 12%;
+    }
+    @media (max-width: 550px) {
+      top: 9%;
+    }
   }
   p {
     font-weight: 400;
@@ -63,5 +72,26 @@ const StyledSkillSet = styled.div`
     letter-spacing: 0%;
     text-align: center;
     margin-top: 10px;
+    @media (max-width: 750px) {
+      font-size: 15px;
+    }
+    @media (max-width: 700px) {
+      font-size: 18px;
+    }
+    @media (max-width: 550px) {
+      font-size: 16px;
+    }
+    @media (max-width: 500px) {
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 1100px) {
+    height: 300vh;
+  }
+  @media (max-width: 700px) {
+    height: 380vh;
+  }
+  @media (max-width: 500px) {
+    height: 520vh;
   }
 `;

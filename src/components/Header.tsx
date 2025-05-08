@@ -15,8 +15,8 @@ const Header = () => {
 export default Header;
 
 const StyledHeaderContainer = styled.div`
-  max-width: 660px;
-  max-height: 422px;
+  /* max-width: 660px;
+  max-height: 422px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;

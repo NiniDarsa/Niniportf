@@ -74,9 +74,6 @@ const DeveloperImage = () => {
   return (
     <SvgContainer>
       <StyledSvg
-        // width="511"
-        // height="513"
-
         viewBox="0 0 511 513"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -785,6 +782,14 @@ const StyledSvg = styled.svg`
   width: 511px;
   height: 512px;
   transform: translateY(4%);
+  @media (max-width: 650px) {
+    width: 400px;
+    height: 514px;
+  }
+  @media (max-width: 450px) {
+    width: 350px;
+    height: 514px;
+  }
 `;
 const StyledMouse = styled(motion.svg)`
   width: 14rem;

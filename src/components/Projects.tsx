@@ -2,10 +2,13 @@ import styled from "styled-components";
 import ProjectContainer from "./ProjectContainer";
 import BackgroundSecondary from "./BackgroundSecondary";
 import Stars from "./Stars";
+import useScrollToSectionContext from "../Context/useScrollToSection";
 
 const Projects = () => {
+  const { sectionProjects } = useScrollToSectionContext();
+
   return (
-    <StyledProjects>
+    <StyledProjects ref={sectionProjects}>
       <>
         <BackgroundSecondary />
         <Styledgreensvg
@@ -109,6 +112,28 @@ const StyledProjects = styled.div`
   position: relative;
   height: 170vh;
   background: #060018;
+  padding-top: 7rem;
+  @media (max-width: 1200px) {
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (max-width: 1100px) {
+    height: 310vh;
+    display: flex;
+    justify-content: center;
+  }
+  @media (max-width: 800px) {
+    height: 280vh;
+    display: flex;
+    justify-content: center;
+  }
+  @media (max-width: 500px) {
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+  }
 
   h1 {
     font-family: "Urbanist", sans-serif;
@@ -122,6 +147,12 @@ const StyledProjects = styled.div`
     z-index: 2;
     left: 50%;
     transform: translateX(-50%);
+    @media (max-width: 1100px) {
+      font-size: 40px;
+    }
+    @media (max-width: 650px) {
+      font-size: 33px;
+    }
   }
   h4 {
     font-family: "Caveat", cursive;
@@ -131,15 +162,26 @@ const StyledProjects = styled.div`
     text-align: center;
     color: #ffffffa1;
     transform: rotate(15deg);
-    left: 50%;
-    top: -3%;
+    left: 40%;
+    top: 14%;
     position: absolute;
     z-index: 2;
+    @media (max-width: 1100px) {
+      top: 12%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    @media (max-width: 500px) {
+      top: 18%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
   }
 `;
 const Styledgreensvg = styled.svg`
   position: absolute;
   top: -50%;
+  left: 0;
 `;
 
 const StyledBottomsvg = styled.svg`
