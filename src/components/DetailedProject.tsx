@@ -3,6 +3,7 @@ import remoteJob from "../assets/images/remote-jobs.mp4";
 import schedule from "../assets/images/schedule.mp4";
 import wordCounter from "../assets/images/wordCounter.mp4";
 import { motion } from "motion/react";
+import "../assets/fonts/fonts.css";
 
 const projects = [
   {
@@ -220,12 +221,12 @@ const StyledModal = styled(motion.div)`
   video {
     width: 100%;
   }
-  h2,
-  p {
-    font-family: "Urbanist", sans-serif;
+  h2 {
+    font-family: "Lufga", sans-serif;
   }
   p {
     line-height: 30px;
+    font-family: "Urbanist", sans-serif;
   }
   h3 {
     font-family: "Caveat", cursive;

@@ -200,14 +200,27 @@ const StyleContainer = styled(motion.div)`
   gap: 4rem;
   position: absolute;
   z-index: 2;
+
   @media (max-width: 1280px) {
     grid-template-columns: 1fr;
     gap: 1rem;
     left: 50%;
     transform: translateX(-50%); //
+    width: 70%;
+    gap: 5rem;
+  }
+  @media (max-width: 900px) {
+    width: 90%;
   }
   @media (max-width: 650px) {
-    gap: 5rem;
+    width: 100%;
+  }
+  @media (max-width: 450px) {
+    left: 0;
+    transform: translateX(0%);
+  }
+  @media (max-width: 370px) {
+    transform: translateX(-20%);
   }
 `;
 const Card = styled(motion.div)`

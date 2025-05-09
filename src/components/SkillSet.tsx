@@ -84,6 +84,16 @@ const StyledSkillSet = styled.div`
       font-size: 18px;
     }
   }
+  @media (max-width: 1650px) {
+    height: 120vh;
+  }
+  @media (max-width: 1550px) {
+    height: 130vh;
+  }
+
+  @media (max-width: 1250px) {
+    height: 170vh;
+  }
   @media (max-width: 1100px) {
     height: 230vh;
   }
@@ -92,5 +102,8 @@ const StyledSkillSet = styled.div`
   }
   @media (max-width: 500px) {
     height: 380vh;
+  }
+  @media (max-width: 470px) {
+    height: 395vh;
   }
 `;

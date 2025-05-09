@@ -127,27 +127,29 @@ const StyledProjects = styled.div`
   height: 170vh;
   background: #060018;
   padding-top: 6rem;
-
+  @media (max-width: 1550px) {
+    height: 130vh;
+  }
   @media (max-width: 1280px) {
-    height: 240vh;
+    height: 280vh;
     display: flex;
     justify-content: center;
   }
 
   @media (max-width: 1100px) {
-    height: 210vh;
+    height: 270vh;
   }
   @media (max-width: 800px) {
-    height: 220vh;
+    height: 240vh;
   }
   @media (max-width: 700px) {
+    height: 250vh;
+  }
+  @media (max-width: 600px) {
     height: 200vh;
   }
-  @media (max-width: 500px) {
-    height: 190vh;
-  }
-  @media (max-width: 430px) {
-    height: 150vh;
+  @media (max-width: 450px) {
+    height: 160vh;
   }
 
   h1 {
@@ -182,12 +184,15 @@ const StyledProjects = styled.div`
     position: absolute;
     z-index: 2;
     @media (max-width: 1270px) {
-      top: 10%;
+      top: 12%;
       left: 50%;
       transform: translateX(-50%);
     }
     @media (max-width: 500px) {
       top: 13%;
+    }
+    @media (max-width: 400px) {
+      top: 18%;
     }
   }
 `;

@@ -342,8 +342,11 @@ const StyledFeedback = styled.div`
       font-size: 50px;
     }
   }
-  @media (max-width: 1200px) {
-    height: 210vh;
+  @media (max-width: 1550px) {
+    height: 130vh;
+  }
+  @media (max-width: 1250px) {
+    height: 170vh;
   }
   @media (max-width: 1100px) {
     height: 200vh;
@@ -352,7 +355,7 @@ const StyledFeedback = styled.div`
     height: 210vh;
   }
 
-  @media (max-width: 400px) {
+  @media (max-width: 480px) {
     height: 240vh;
   }
 `;
