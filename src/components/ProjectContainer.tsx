@@ -2,12 +2,13 @@ import styled from "styled-components";
 import firstProj from "../assets/images/1stProj.png";
 import secondProj from "../assets/images/2ndProj.png";
 import thirdProj from "../assets/images/3rdProj.png";
+import { motion } from "motion/react";
 const ProjectContainer = () => {
   return (
     <StyleContainer>
-      <Card>
-        <img src={firstProj} alt="RemoteJobBoard" />
-        <StyledContainer>
+      <Card layoutId="1">
+        <motion.img src={firstProj} alt="RemoteJobBoard" layoutId={`image 1`} />
+        <StyledInfo>
           <p>Remote Job Board</p>
           <ButtonContainer>
             <button>
@@ -34,11 +35,11 @@ const ProjectContainer = () => {
               </button>
             </a>
           </ButtonContainer>
-        </StyledContainer>
+        </StyledInfo>
       </Card>
-      <Card>
-        <img src={secondProj} alt="schedulator" />
-        <StyledContainer>
+      <Card layoutId="2">
+        <motion.img src={secondProj} alt="schedulator" layoutId={`image 2`} />
+        <StyledInfo>
           <p>Schedulator</p>
           <ButtonContainer>
             <button>
@@ -65,12 +66,11 @@ const ProjectContainer = () => {
               </button>
             </a>
           </ButtonContainer>
-        </StyledContainer>
+        </StyledInfo>
       </Card>
-
-      <Card>
-        <img src={thirdProj} alt="wordcounter" />
-        <StyledContainer>
+      <Card layoutId="3">
+        <motion.img src={thirdProj} alt="wordcounter" layoutId={`image 3`} />
+        <StyledInfo>
           <p>Word Counter</p>
           <ButtonContainer>
             <button>
@@ -97,11 +97,10 @@ const ProjectContainer = () => {
               </button>
             </a>
           </ButtonContainer>
-        </StyledContainer>
+        </StyledInfo>
       </Card>
-
-      <Card>
-        <SvgContainer>
+      <Card layoutId="4">
+        <SvgContainer layoutId={`image 4`}>
           <StyledNpm
             viewBox="0 0 784 638"
             fill="none"
@@ -143,7 +142,7 @@ const ProjectContainer = () => {
             </defs>
           </StyledNpm>
         </SvgContainer>
-        <StyledContainer>
+        <StyledInfo>
           <p>Component Library</p>
           <ButtonContainer>
             <button>
@@ -176,32 +175,36 @@ const ProjectContainer = () => {
               </button>
             </a>
           </ButtonContainer>
-        </StyledContainer>
+        </StyledInfo>
       </Card>
     </StyleContainer>
   );
 };
 export default ProjectContainer;
-const StyleContainer = styled.div`
+
+const StyleContainer = styled(motion.div)`
   padding: 12rem 6rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 5rem;
   position: absolute;
   z-index: 2;
-  @media (max-width: 1100px) {
+  @media (max-width: 1280px) {
     grid-template-columns: 1fr;
     gap: 1rem;
+    left: 50%;
+    transform: translateX(-50%); //
   }
   @media (max-width: 650px) {
     gap: 5rem;
   }
 `;
-const Card = styled.div`
+const Card = styled(motion.div)`
   height: 24rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+
   @media (max-width: 1200px) {
     height: 22rem;
   }
@@ -220,7 +223,7 @@ const Card = styled.div`
     object-fit: cover;
   }
 `;
-const SvgContainer = styled.div`
+const SvgContainer = styled(motion.div)`
   height: 80%;
   display: flex;
   justify-content: center;
@@ -232,7 +235,7 @@ const StyledNpm = styled.svg`
   height: 80%;
 `;
 
-const StyledContainer = styled.div`
+const StyledInfo = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;

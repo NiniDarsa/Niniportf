@@ -351,11 +351,9 @@ const StyledFeedback = styled.div`
   @media (max-width: 850px) {
     height: 210vh;
   }
-  @media (max-width: 650px) {
-    height: 250vh;
-  }
-  @media (max-width: 500px) {
-    height: 360vh;
+
+  @media (max-width: 400px) {
+    height: 240vh;
   }
 `;
 const StyledContainer = styled.div`

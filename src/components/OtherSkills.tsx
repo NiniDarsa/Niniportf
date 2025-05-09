@@ -120,7 +120,7 @@ const StyledDiv = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  @media (max-width: 950px) {
+  @media (max-width: 1250px) {
     flex-direction: column;
   }
 
@@ -147,6 +147,11 @@ const StyledSkill = styled.div`
   }
   img {
     object-fit: cover;
+  }
+  p {
+    @media (max-width: 1400px) {
+      font-size: 0.8rem;
+    }
   }
 `;
 const Styledsvg = styled.svg`

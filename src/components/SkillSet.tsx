@@ -85,12 +85,12 @@ const StyledSkillSet = styled.div`
     }
   }
   @media (max-width: 1100px) {
-    height: 300vh;
+    height: 230vh;
   }
   @media (max-width: 700px) {
-    height: 380vh;
+    height: 280vh;
   }
   @media (max-width: 500px) {
-    height: 520vh;
+    height: 380vh;
   }
 `;

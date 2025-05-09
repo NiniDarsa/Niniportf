@@ -178,7 +178,7 @@ const StyledContact = styled.div`
   position: relative;
   font-family: "Urbanist", sans-serif;
   @media (max-width: 1200px) {
-    height: 170vh;
+    height: 110vh;
   }
 
   .grid-container {
@@ -194,7 +194,7 @@ const StyledContact = styled.div`
     left: 50%;
     transform: translateX(-50%);
 
-    @media (max-width: 1200px) {
+    @media (max-width: 1250px) {
       width: 80%;
       height: 100%;
     }
@@ -284,7 +284,7 @@ const StyledContact = styled.div`
       justify-content: space-between;
       grid-column: 1 / 3;
       grid-row: 2;
-      height: 15rem;
+      height: 25rem;
     }
   }
 
@@ -441,6 +441,7 @@ const ButtonContainer = styled.div`
     }
     @media (max-width: 1100px) {
       font-size: 120%;
+      line-height: 5rem;
     }
   }
 `;

@@ -148,7 +148,7 @@ const StyledNav = styled.nav<{ $isopen: boolean }>`
       line-height: 24px;
       text-align: center;
       @media (max-width: 750px) {
-        font-size: ${({ $isopen }) => ($isopen ? "5rem" : "16px")};
+        font-size: ${({ $isopen }) => ($isopen ? "10rem" : "16px")};
       }
 
       &:hover p {
