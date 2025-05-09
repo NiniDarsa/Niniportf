@@ -69,7 +69,6 @@ const StyledSkillSet = styled.div`
     font-weight: 400;
     font-size: 18px;
     line-height: 160%;
-    letter-spacing: 0%;
     text-align: center;
     margin-top: 10px;
     @media (max-width: 750px) {

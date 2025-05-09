@@ -30,12 +30,17 @@ const projects = [
   },
 ];
 const DetailedProject = () => {
-  const current = useHashChange();
+  const { current, setCurrent } = useHashChange();
   const CurrentProj = projects.find((elem) => String(elem.id) === current);
 
   //
+  //   const handleClose = () => {
+  //     window.location.hash = "";
+  //   }; i can still see # thats why i did this
   const handleClose = () => {
-    window.location.hash = "";
+    setCurrent("");
+    //This line uses the History API to update the URL without reloading the page and without adding a new entry to the browser history stack.
+    window.history.replaceState(null, "", window.location.pathname);
   };
   return (
     <>
@@ -111,7 +116,7 @@ const DetailedProject = () => {
                 </radialGradient>
               </defs>
             </Styledgreensvg>
-            <h1>{CurrentProj?.name}</h1>
+            <h2>{CurrentProj?.name}</h2>
             <h3>Project #{CurrentProj?.id}</h3>
             {CurrentProj?.video ? (
               <video autoPlay muted loop key={CurrentProj?.video}>
@@ -169,15 +174,14 @@ const DetailedProject = () => {
 };
 export default DetailedProject;
 const StyledOverlay = styled.div`
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
   position: fixed;
   top: 0%;
   left: 0%;
   background-color: rgba(240, 248, 255, 0.2); /* semi-transparent */
   backdrop-filter: blur(2px); /* adds blur effect */
   z-index: 12;
-  /* pointer-events: none; */
 `;
 const StyledModal = styled.div`
   width: 50%;
@@ -188,7 +192,7 @@ const StyledModal = styled.div`
   transform: translate(-50%, -50%);
   border-radius: 1rem;
   padding: 2rem 4rem;
-  z-index: 12;
+  z-index: 13;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -206,7 +210,7 @@ const StyledModal = styled.div`
   video {
     width: 100%;
   }
-  h1,
+  h2,
   p {
     font-family: "Urbanist", sans-serif;
   }

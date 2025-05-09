@@ -220,8 +220,7 @@ const StyledContact = styled.div`
 
     button {
       background: #1a1a1a;
-      box-shadow: 0px 12px 12px 0px #1a1a1a26;
-      box-shadow: 0px 4px 6px 0px #ffffff59 inset;
+      box-shadow: 0px 12px 12px 0px #1a1a1a26, inset 0px 4px 6px 0px #ffffff59;
       color: white;
       font-weight: 600;
       font-size: 14px;
@@ -356,7 +355,6 @@ const StyledContact = styled.div`
         font-weight: 200;
         font-size: 14px;
         line-height: 142%;
-        letter-spacing: 0%;
         transition: all 0.4s ease;
         &:hover {
           background: linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
@@ -414,7 +412,6 @@ const StyledContact = styled.div`
       font-weight: 600;
       font-size: 14px;
       line-height: 142%;
-      letter-spacing: 0%;
       color: #ffffffb2;
     }
   }

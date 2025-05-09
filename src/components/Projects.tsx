@@ -3,12 +3,14 @@ import ProjectContainer from "./ProjectContainer";
 import BackgroundSecondary from "./BackgroundSecondary";
 import Stars from "./Stars";
 import useScrollToSectionContext from "../Context/useScrollToSection";
+import DetailedProject from "./DetailedProject";
 
 const Projects = () => {
   const { sectionProjects } = useScrollToSectionContext();
 
   return (
     <StyledProjects ref={sectionProjects}>
+      <DetailedProject />
       <>
         <BackgroundSecondary />
         <Styledgreensvg
@@ -89,10 +91,9 @@ const Projects = () => {
             </linearGradient>
           </defs>
         </StyledBottomsvg>
+        <Stars left="-70px" top="-150px" />
+        <Stars left="-70px" top="-200px" />
       </>
-      <Stars left="-70px" top="-150px" />
-      <Stars left="-70px" top="-200px" />
-
       <h4>
         some of my
         <br /> favorite projects
@@ -101,8 +102,10 @@ const Projects = () => {
         Take a look at my <br /> works
       </h1>
       <ProjectContainer />
-      <Stars left="-200px" bottom="10px" />
-      <Stars left="-200px" bottom="9px" />
+      <>
+        <Stars left="-200px" bottom="10px" />
+        <Stars left="-200px" bottom="9px" />
+      </>
     </StyledProjects>
   );
 };

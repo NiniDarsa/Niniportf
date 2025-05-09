@@ -6,7 +6,7 @@ import SkillSet from "./components/SkillSet";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Feedback from "./components/Feedback";
-import DetailedProject from "./components/DetailedProject";
+// import DetailedProject from "./components/DetailedProject";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <About />
       <SkillSet />
       <Projects />
-      <DetailedProject />
+      {/* <DetailedProject /> */}
       <Feedback />
       <Contact />
     </StyledApp>
@@ -27,5 +27,5 @@ export default App;
 const StyledApp = styled.div`
   width: 100%;
   height: 100%;
-  position: relative;
+  /* position: relative; */
 `;

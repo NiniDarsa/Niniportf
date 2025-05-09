@@ -15,7 +15,7 @@ const useIntersectionObserver = (id: string) => {
         }
       },
       {
-        threshold: 0.6, // Trigger when 10% of the element is in view
+        threshold: 0.4, // Trigger when 40% of the element is in view
       }
     );
 

@@ -48,13 +48,13 @@ const Skills = () => {
         <div className="inner">
           <div className="front">
             <Circle>
-              <img src={sass} />
+              <img src={sass} alt="sass" />
             </Circle>
             <SmallText>2 years of experience</SmallText>
           </div>
           <div className="back">
             <Circle>
-              <img src={sass} />
+              <img src={sass} alt="sass" />
             </Circle>
             <p>
               I have 2 years of experience working with Sass, specializing in
@@ -67,13 +67,13 @@ const Skills = () => {
         <div className="inner">
           <div className="front">
             <Circle>
-              <img src={react} />
+              <img src={react} alt="react" />
             </Circle>
             <SmallText>2 years of experience</SmallText>
           </div>
           <div className="back">
             <Circle>
-              <img src={react} />
+              <img src={react} alt="react" />
             </Circle>
             <p>
               With 2 years of experience in React, I've contributed to
@@ -86,13 +86,13 @@ const Skills = () => {
         <div className="inner">
           <div className="front">
             <Circle>
-              <img src={figma} />
+              <img src={figma} alt="figma" />
             </Circle>
             <SmallText>1 years of experience</SmallText>
           </div>
           <div className="back">
             <Circle>
-              <img src={figma} />
+              <img src={figma} alt="figma" />
             </Circle>
             <p>
               I have 1 years of experience using Figma to design smooth and
@@ -199,8 +199,7 @@ const Card = styled.div`
       rgba(255, 255, 255, 5e-6) 68.79%,
       rgba(255, 255, 255, 0.005) 105.18%
     );
-    box-shadow: 0px 44px 33px -22px #00000026;
-    box-shadow: 0px 0px 11px 0px #f8f8f840 inset;
+    box-shadow: 0px 44px 33px -22px #00000026, inset 0px 0px 11px 0px #f8f8f840;
 
     transition: opacity 0.4s ease, visibility 0.4s ease;
   }
@@ -250,6 +249,7 @@ const Circle = styled.div`
   img {
     width: 90%;
     height: 90%;
+    object-fit: cover;
   }
   svg {
     width: 7rem;

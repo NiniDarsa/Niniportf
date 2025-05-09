@@ -39,24 +39,24 @@ const OtherSkills = () => {
         </>
         <>
           <StyledSkill>
-            <img src={motion} />
+            <img src={motion} alt="motion" />
             <p>Framer Motion</p>
           </StyledSkill>
           <StyledSkill>
-            <img src={nodejs} />
+            <img src={nodejs} alt="nodejs" />
             <p>Node Js</p>
           </StyledSkill>
           <StyledSkill>
-            <img src={git} />
+            <img src={git} alt="git" />
             <p>Git</p>
           </StyledSkill>
           <StyledSkill>
-            <img src={zustand} />
+            <img src={zustand} alt="zustand" />
             <p>Zustand</p>
           </StyledSkill>
 
           <StyledSkill>
-            <img src={styledcomponent} />
+            <img src={styledcomponent} alt="styledcomponent" />
             <p>Styled Components</p>
           </StyledSkill>
         </>
@@ -111,6 +111,7 @@ const StyledSkills = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Urbanist", sans-serif;
 `;
 const StyledDiv = styled.div`
   width: 80%;
@@ -118,13 +119,13 @@ const StyledDiv = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   @media (max-width: 950px) {
     flex-direction: column;
   }
 
   h4 {
     color: white;
-    font-family: "Urbanist", sans-serif;
     font-weight: 500;
     font-size: 30px;
     line-height: 137%;
@@ -140,8 +141,12 @@ const StyledSkill = styled.div`
   border-radius: 5rem;
   padding: 0 0.8rem;
   margin-left: 1rem;
-  img {
+  img,
+  p {
     height: 50%;
+  }
+  img {
+    object-fit: cover;
   }
 `;
 const Styledsvg = styled.svg`

@@ -6,7 +6,7 @@ const ProjectContainer = () => {
   return (
     <StyleContainer>
       <Card>
-        <img src={firstProj} />
+        <img src={firstProj} alt="RemoteJobBoard" />
         <StyledContainer>
           <p>Remote Job Board</p>
           <ButtonContainer>
@@ -37,7 +37,7 @@ const ProjectContainer = () => {
         </StyledContainer>
       </Card>
       <Card>
-        <img src={secondProj} />
+        <img src={secondProj} alt="schedulator" />
         <StyledContainer>
           <p>Schedulator</p>
           <ButtonContainer>
@@ -69,7 +69,7 @@ const ProjectContainer = () => {
       </Card>
 
       <Card>
-        <img src={thirdProj} />
+        <img src={thirdProj} alt="wordcounter" />
         <StyledContainer>
           <p>Word Counter</p>
           <ButtonContainer>
@@ -217,6 +217,7 @@ const Card = styled.div`
   img {
     height: 80%;
     border-radius: 1rem;
+    object-fit: cover;
   }
 `;
 const SvgContainer = styled.div`

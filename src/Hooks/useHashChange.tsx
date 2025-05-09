@@ -10,6 +10,6 @@ const useHashChange = () => {
     window.addEventListener("hashchange", handleHashChange);
     return () => window.removeEventListener("hashchange", handleHashChange);
   }, []);
-  return current;
+  return { current, setCurrent };
 };
 export default useHashChange;
