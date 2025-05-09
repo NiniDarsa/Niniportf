@@ -149,7 +149,6 @@ const Skills = () => {
 export default Skills;
 
 const StyledSkills = styled.div`
-  /* display: flex; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   margin-top: 4rem;
@@ -200,8 +199,7 @@ const Card = styled.div`
       rgba(255, 255, 255, 0.005) 105.18%
     );
     box-shadow: 0px 44px 33px -22px #00000026, inset 0px 0px 11px 0px #f8f8f840;
-
-    transition: opacity 0.4s ease, visibility 0.4s ease;
+    transition: opacity 0.1s ease, visibility 0.1s ease;
   }
   .front {
     left: 50%;

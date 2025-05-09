@@ -80,7 +80,7 @@ const Contact = () => {
             </button>
           </ButtonContainer>
           <StyleInfo>
-            <div>NnoDarsa700@gmail.com</div>
+            <div>ninodarsa700@gmail.com</div>
             <a href="https://www.linkedin.com/in/nino-darsavelidze-123822205/">
               <div>
                 <svg

@@ -126,7 +126,7 @@ const StyledProjects = styled.div`
   position: relative;
   height: 170vh;
   background: #060018;
-  padding-top: 4rem;
+  padding-top: 6rem;
 
   @media (max-width: 1280px) {
     height: 240vh;
@@ -178,7 +178,7 @@ const StyledProjects = styled.div`
     color: #ffffffa1;
     transform: rotate(15deg);
     left: 39%;
-    top: 10%;
+    top: 12%;
     position: absolute;
     z-index: 2;
     @media (max-width: 1270px) {

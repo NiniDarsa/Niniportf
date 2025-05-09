@@ -28,7 +28,7 @@ const Navigation = ({ isOpen, setIsOpen }: NavigationProp) => {
           <button>
             <a href="https://github.com/NiniDarsa">
               <p>Nino</p>
-              <p>Experienced Developer</p>
+              <p>Front-end Developer</p>
             </a>
           </button>
         </StyledLi>
@@ -105,9 +105,8 @@ const Navigation = ({ isOpen, setIsOpen }: NavigationProp) => {
 export default Navigation;
 
 const StyledNav = styled.nav<{ $isopen: boolean }>`
-  /* max-width: 70%; */
   width: 70%;
-  padding: 8px 18px;
+  padding: 2px 10px;
   position: fixed;
   left: 50%;
   transform: translate(-50%, 40%);
@@ -143,9 +142,8 @@ const StyledNav = styled.nav<{ $isopen: boolean }>`
 
     li {
       width: 100%;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 24px;
+      height: 100%;
+
       text-align: center;
       @media (max-width: 750px) {
         font-size: ${({ $isopen }) => ($isopen ? "10rem" : "16px")};
@@ -163,6 +161,10 @@ const StyledNav = styled.nav<{ $isopen: boolean }>`
         color: white;
         cursor: pointer;
         width: 100%;
+        height: 100%;
+        padding: 0.5rem;
+        font-weight: 200;
+        font-size: 16px;
 
         @media (max-width: 650px) {
           padding-right: 4px;
@@ -179,7 +181,7 @@ const StyledNav = styled.nav<{ $isopen: boolean }>`
   }
 `;
 const StyledLi = styled.li`
-  padding: 8px 20px;
+  padding: 6px 7px;
   width: 10rem;
   border-right: 1px solid grey;
 

@@ -187,7 +187,7 @@ const StyledOverlay = styled(motion.div)`
   position: fixed;
   top: 0%;
   left: 0%;
-
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -203,6 +203,7 @@ const StyledModal = styled(motion.div)`
   padding: 2rem 4rem;
   z-index: 13;
   overflow: hidden;
+  cursor: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

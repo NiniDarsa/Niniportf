@@ -7,7 +7,13 @@ const ProjectContainer = () => {
   return (
     <StyleContainer>
       <Card layoutId="1">
-        <motion.img src={firstProj} alt="RemoteJobBoard" layoutId={`image 1`} />
+        <StyledLink href={"#1"}>
+          <motion.img
+            src={firstProj}
+            alt="RemoteJobBoard"
+            layoutId={`image 1`}
+          />
+        </StyledLink>
         <StyledInfo>
           <p>Remote Job Board</p>
           <ButtonContainer>
@@ -38,7 +44,9 @@ const ProjectContainer = () => {
         </StyledInfo>
       </Card>
       <Card layoutId="2">
-        <motion.img src={secondProj} alt="schedulator" layoutId={`image 2`} />
+        <StyledLink href={"#2"}>
+          <motion.img src={secondProj} alt="schedulator" layoutId={`image 2`} />
+        </StyledLink>
         <StyledInfo>
           <p>Schedulator</p>
           <ButtonContainer>
@@ -69,7 +77,9 @@ const ProjectContainer = () => {
         </StyledInfo>
       </Card>
       <Card layoutId="3">
-        <motion.img src={thirdProj} alt="wordcounter" layoutId={`image 3`} />
+        <StyledLink href={"#3"}>
+          <motion.img src={thirdProj} alt="wordcounter" layoutId={`image 3`} />
+        </StyledLink>
         <StyledInfo>
           <p>Word Counter</p>
           <ButtonContainer>
@@ -100,7 +110,7 @@ const ProjectContainer = () => {
         </StyledInfo>
       </Card>
       <Card layoutId="4">
-        <SvgContainer layoutId={`image 4`}>
+        <SvgContainer layoutId={`image 4`} href={"#4"}>
           <StyledNpm
             viewBox="0 0 784 638"
             fill="none"
@@ -142,6 +152,7 @@ const ProjectContainer = () => {
             </defs>
           </StyledNpm>
         </SvgContainer>
+
         <StyledInfo>
           <p>Component Library</p>
           <ButtonContainer>
@@ -186,7 +197,7 @@ const StyleContainer = styled(motion.div)`
   padding: 12rem 6rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 5rem;
+  gap: 4rem;
   position: absolute;
   z-index: 2;
   @media (max-width: 1280px) {
@@ -205,6 +216,12 @@ const Card = styled(motion.div)`
   flex-direction: column;
   justify-content: space-around;
 
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+  }
   @media (max-width: 1200px) {
     height: 22rem;
   }
@@ -217,25 +234,23 @@ const Card = styled(motion.div)`
   @media (max-width: 450px) {
     height: 10rem;
   }
-  img {
-    height: 80%;
-    border-radius: 1rem;
-    object-fit: cover;
-  }
 `;
-const SvgContainer = styled(motion.div)`
-  height: 80%;
+const SvgContainer = styled(motion.a)`
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #cb3837;
   border-radius: 1rem;
+  overflow: hidden;
 `;
 const StyledNpm = styled.svg`
-  height: 80%;
+  width: 100%;
+  height: 100%;
 `;
 
 const StyledInfo = styled.div`
+  padding-top: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -295,4 +310,8 @@ const ButtonContainer = styled.div`
       color: black;
     }
   }
+`;
+const StyledLink = styled.a`
+  height: 100%;
+  overflow: hidden;
 `;
