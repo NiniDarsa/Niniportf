@@ -84,26 +84,22 @@ const StyledSkillSet = styled.div`
       font-size: 18px;
     }
   }
-  @media (max-width: 1650px) {
-    height: 120vh;
-  }
-  @media (max-width: 1550px) {
-    height: 130vh;
-  }
-
   @media (max-width: 1250px) {
-    height: 170vh;
+    height: 140vh;
   }
-  @media (max-width: 1100px) {
-    height: 230vh;
-  }
+  /* @media (max-width: 1100px) {
+    height: 160vh;
+  } */
   @media (max-width: 700px) {
-    height: 280vh;
+    height: 190vh;
   }
+  /* @media (max-width: 500px) {
+    height: 100vh;
+  } */
   @media (max-width: 500px) {
-    height: 380vh;
+    height: 265vh;
   }
-  @media (max-width: 470px) {
-    height: 395vh;
-  }
+  /* @media (max-width: 400px) {
+    height: 285vh;
+  } */
 `;

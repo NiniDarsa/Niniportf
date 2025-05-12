@@ -46,7 +46,12 @@ const DetailedProject = ({ current, setCurrent }: DetailedProjectProp) => {
     window.history.replaceState(null, "", window.location.pathname);
   };
   return (
-    <StyledOverlay onClick={handleClose}>
+    <StyledOverlay
+      onClick={handleClose}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <StyledModal
         onClick={(e) => e.stopPropagation()}
         layoutId={String(CurrentProj?.id)}

@@ -109,13 +109,17 @@ const StyledSkill = styled.div`
     object-fit: cover;
   }
   p {
+    @media (max-width: 450px) {
+      font-size: 0.8rem;
+    }
     @media (max-width: 1450px) {
       font-size: 0.8rem;
     }
   }
-  @media (max-width: 1450px) {
+
+  /* @media (max-width: 1450px) {
     padding: 0rem 2rem;
-  }
+  } */
 `;
 const Styledsvg = styled.svg`
   color: aliceblue;

@@ -37,10 +37,10 @@ const StyledIntro = styled.div`
   height: 100vh;
   overflow: hidden;
   @media (max-width: 1100px) {
-    height: 160vh;
+    height: 120vh;
   }
   @media (max-width: 650px) {
-    height: 140vh;
+    height: 110vh;
   }
 `;
 

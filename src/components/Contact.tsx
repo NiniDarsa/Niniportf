@@ -253,6 +253,9 @@ const StyledContact = styled.div`
         font-size: 1.5rem;
       }
     }
+    @media (max-width: 1200px) {
+      height: 10rem;
+    }
   }
 
   .grid-item:nth-child(2) {

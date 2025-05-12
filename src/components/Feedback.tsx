@@ -342,9 +342,7 @@ const StyledFeedback = styled.div`
       font-size: 50px;
     }
   }
-  @media (max-width: 1550px) {
-    height: 130vh;
-  }
+
   @media (max-width: 1250px) {
     height: 170vh;
   }
