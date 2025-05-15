@@ -189,7 +189,7 @@ const DetailedProject = ({ current, setCurrent }: DetailedProjectProp) => {
 export default DetailedProject;
 const StyledOverlay = styled(motion.div)`
   width: 100%;
-  min-height: 100vh;
+  min-height: 100dvh;
   position: fixed;
   top: 0%;
   left: 0%;

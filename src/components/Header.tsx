@@ -1,12 +1,12 @@
 import styled from "styled-components";
-import MainHeader from "./PrimaryHeader";
+import PrimaryHeader from "./PrimaryHeader";
 import SecondaryHeader from "./SecondaryHeader";
 import ButtonContainer from "./ButtonContainer";
 
 const Header = () => {
   return (
     <StyledHeaderContainer>
-      <MainHeader />
+      <PrimaryHeader />
       <SecondaryHeader />
       <ButtonContainer />
     </StyledHeaderContainer>

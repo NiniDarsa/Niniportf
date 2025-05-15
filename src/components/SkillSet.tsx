@@ -30,22 +30,35 @@ const SkillSet = () => {
   );
 };
 export default SkillSet;
+
 const StyledSkillSet = styled.div`
   font-family: "Urbanist", sans-serif;
   position: relative;
   padding-top: 7rem;
-  height: 160vh;
+  min-height: 150dvh;
   background-color: #060018;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
 
+  @media (max-width: 770px) {
+    /* overflow-y: auto; */
+    height: 200dvh;
+  }
+  @media (max-width: 700px) {
+    height: 310dvh;
+  }
+
+  @media (max-width: 500px) {
+    height: 360dvh;
+  }
+
   h1 {
     font-weight: 700;
-    font-size: 56px;
+    font-size: clamp(32px, 5vw, 56px);
     line-height: 137%;
-    letter-spacing: -2%;
+    letter-spacing: -0.02px;
     text-align: center;
   }
   h2 {
@@ -58,6 +71,7 @@ const StyledSkillSet = styled.div`
     right: 8%;
     top: 18%;
     transform: rotate(-10deg);
+
     @media (max-width: 950px) {
       top: 12%;
     }
@@ -67,39 +81,9 @@ const StyledSkillSet = styled.div`
   }
   p {
     font-weight: 400;
-    font-size: 18px;
-    line-height: 160%;
+    font-size: clamp(15px, 1.2vw, 20px);
+    line-height: 170%;
     text-align: center;
     margin-top: 10px;
-    @media (max-width: 750px) {
-      font-size: 15px;
-    }
-    @media (max-width: 700px) {
-      font-size: 18px;
-    }
-    @media (max-width: 550px) {
-      font-size: 16px;
-    }
-    @media (max-width: 500px) {
-      font-size: 18px;
-    }
   }
-  @media (max-width: 1250px) {
-    height: 140vh;
-  }
-  /* @media (max-width: 1100px) {
-    height: 160vh;
-  } */
-  @media (max-width: 700px) {
-    height: 190vh;
-  }
-  /* @media (max-width: 500px) {
-    height: 100vh;
-  } */
-  @media (max-width: 500px) {
-    height: 265vh;
-  }
-  /* @media (max-width: 400px) {
-    height: 285vh;
-  } */
 `;

@@ -34,7 +34,7 @@ const StyledAbout = styled.div`
     cursor: pointer;
 
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 142%;
     transition: all 0.2s ease;
 
@@ -49,14 +49,10 @@ const StyledAbout = styled.div`
     color: black;
     text-align: center;
     font-weight: 600;
-    font-size: 60px;
+    font-size: clamp(2rem, 6vw, 5rem);
     line-height: 98%;
-    letter-spacing: -2%;
+    letter-spacing: -0.02px;
     text-align: center;
     margin-bottom: 2rem;
-
-    @media (max-width: 1100px) {
-      font-size: 45px;
-    }
   }
 `;

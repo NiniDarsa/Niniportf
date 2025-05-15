@@ -34,25 +34,20 @@ export default Intro;
 const StyledIntro = styled.div`
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: clamp(95dvh, 100dvh, 140dvh);
   overflow: hidden;
-  @media (max-width: 1100px) {
-    height: 120vh;
-  }
-  @media (max-width: 650px) {
-    height: 110vh;
-  }
 `;
 
 const StyledContainer = styled.div<{ $isopen: boolean }>`
   width: 100%;
-  height: 100%;
+  min-height: 100%; //
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
   z-index: 2;
-  @media (max-width: 1100px) {
+  transition: padding-top 0.3s ease;
+  @media (max-width: 800px) {
     flex-direction: column;
     justify-content: flex-start;
     padding-top: 8rem;

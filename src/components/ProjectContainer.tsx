@@ -17,28 +17,24 @@ const ProjectContainer = () => {
         <StyledInfo>
           <p>Remote Job Board</p>
           <ButtonContainer>
-            <button>
-              <a href="https://github.com/NiniDarsa/react-job-board">GitHub</a>
-            </button>
-            <button>Live Demo</button>
+            <a href="https://github.com/NiniDarsa/react-job-board">GitHub</a>
+            <a>Live Demo</a>
             <a href={"#1"}>
-              <button>
-                <svg
-                  width="13"
-                  height="12"
-                  viewBox="0 0 13 12"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1.60376 11L11.6038 1M11.6038 1H1.60376M11.6038 1V11"
-                    stroke="#CDFF65"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </button>
+              <svg
+                width="13"
+                height="12"
+                viewBox="0 0 13 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.60376 11L11.6038 1M11.6038 1H1.60376M11.6038 1V11"
+                  stroke="#CDFF65"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </a>
           </ButtonContainer>
         </StyledInfo>
@@ -50,28 +46,24 @@ const ProjectContainer = () => {
         <StyledInfo>
           <p>Schedulator</p>
           <ButtonContainer>
-            <button>
-              <a href="https://github.com/NiniDarsa/schedule">GitHub</a>
-            </button>
-            <button>Live Demo</button>
+            <a href="https://github.com/NiniDarsa/schedule">GitHub</a>
+            <a>Live Demo</a>
             <a href={"#2"}>
-              <button>
-                <svg
-                  width="13"
-                  height="12"
-                  viewBox="0 0 13 12"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1.60376 11L11.6038 1M11.6038 1H1.60376M11.6038 1V11"
-                    stroke="#CDFF65"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </button>
+              <svg
+                width="13"
+                height="12"
+                viewBox="0 0 13 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.60376 11L11.6038 1M11.6038 1H1.60376M11.6038 1V11"
+                  stroke="#CDFF65"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </a>
           </ButtonContainer>
         </StyledInfo>
@@ -83,28 +75,24 @@ const ProjectContainer = () => {
         <StyledInfo>
           <p>Word Counter</p>
           <ButtonContainer>
-            <button>
-              <a href="https://github.com/NiniDarsa/word-count">GitHub</a>
-            </button>
-            <button>Live Demo</button>
+            <a href="https://github.com/NiniDarsa/word-count">GitHub</a>
+            <a>Live Demo</a>
             <a href={"#3"}>
-              <button>
-                <svg
-                  width="13"
-                  height="12"
-                  viewBox="0 0 13 12"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1.60376 11L11.6038 1M11.6038 1H1.60376M11.6038 1V11"
-                    stroke="#CDFF65"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </button>
+              <svg
+                width="13"
+                height="12"
+                viewBox="0 0 13 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.60376 11L11.6038 1M11.6038 1H1.60376M11.6038 1V11"
+                  stroke="#CDFF65"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </a>
           </ButtonContainer>
         </StyledInfo>
@@ -156,34 +144,28 @@ const ProjectContainer = () => {
         <StyledInfo>
           <p>Component Library</p>
           <ButtonContainer>
-            <button>
-              <a href="https://github.com/NiniDarsa/react-component-library">
-                GitHub
-              </a>
-            </button>
-            <button>
-              <a href="https://www.npmjs.com/package/react-ui-elements-drs">
-                NPM
-              </a>
-            </button>
+            <a href="https://github.com/NiniDarsa/react-component-library">
+              GitHub
+            </a>
+            <a href="https://www.npmjs.com/package/react-ui-elements-drs">
+              NPM
+            </a>
             <a href={"#4"}>
-              <button>
-                <svg
-                  width="13"
-                  height="12"
-                  viewBox="0 0 13 12"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1.60376 11L11.6038 1M11.6038 1H1.60376M11.6038 1V11"
-                    stroke="#CDFF65"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </button>
+              <svg
+                width="13"
+                height="12"
+                viewBox="0 0 13 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.60376 11L11.6038 1M11.6038 1H1.60376M11.6038 1V11"
+                  stroke="#CDFF65"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </a>
           </ButtonContainer>
         </StyledInfo>
@@ -201,11 +183,11 @@ const StyleContainer = styled(motion.div)`
   position: absolute;
   z-index: 2;
 
-  @media (max-width: 1280px) {
+  @media (max-width: 1100px) {
     grid-template-columns: 1fr;
     gap: 1rem;
     left: 50%;
-    transform: translateX(-50%); //
+    transform: translateX(-50%);
     width: 70%;
     gap: 5rem;
   }
@@ -215,16 +197,13 @@ const StyleContainer = styled(motion.div)`
   @media (max-width: 650px) {
     width: 100%;
   }
-  @media (max-width: 450px) {
+  @media (max-width: 400px) {
     left: 0;
-    transform: translateX(0%);
-  }
-  @media (max-width: 370px) {
-    transform: translateX(-20%);
+    transform: translateX(-15%);
   }
 `;
 const Card = styled(motion.div)`
-  height: 24rem;
+  height: clamp(5rem, 25vw, 24rem);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -263,37 +242,33 @@ const StyledNpm = styled.svg`
 `;
 
 const StyledInfo = styled.div`
-  padding-top: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 1rem;
   p {
     font-family: "Inter" sans-serif;
     font-weight: 500;
-    font-size: 21px;
+    font-size: clamp(12px, 2vw, 21px);
     line-height: 120%;
-    letter-spacing: -1%;
-    @media (max-width: 1100px) {
-      font-size: 18px;
-    }
-    @media (max-width: 600px) {
-      font-size: 12px;
-    }
+    letter-spacing: -0.01px;
   }
 `;
 const ButtonContainer = styled.div`
   display: flex;
   justify-content: end;
   align-items: center;
-
-  button {
+  height: 100%;
+  a {
+    text-decoration: none;
+    color: black;
     font-family: "Urbanist", sans-serif;
     font-weight: 600;
-    font-size: 12px;
+    font-size: clamp(5px, 1.2vw, 12px);
     line-height: 140%;
-    letter-spacing: 0.4%;
+    letter-spacing: 0.4px;
     border: 2px solid #1b1d1e1a;
-    height: 3rem;
+    height: clamp(1rem, 3.4vw, 3rem);
     border-radius: 2rem;
     margin-right: 1rem;
     padding: 0.8rem 1rem;
@@ -301,26 +276,11 @@ const ButtonContainer = styled.div`
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    @media (max-width: 650px) {
-      font-size: 9px;
-      height: 2.5rem;
-    }
-    @media (max-width: 600px) {
-      font-size: 7px;
-      height: 2rem;
-    }
-    @media (max-width: 450px) {
-      font-size: 5px;
-      height: 1rem;
-    }
+    background-color: #f0f0f0;
 
     &:last-child {
       background-color: #243459;
       box-shadow: 25px 12px 34px 0px #00000040;
-    }
-    a {
-      text-decoration: none;
-      color: black;
     }
   }
 `;

@@ -19,40 +19,32 @@ export default PrimaryHeader;
 const StyledHeader = styled.h1`
   font-family: "Outfit", sans-serif;
   font-weight: 600;
-  font-size: 46px;
+  font-size: clamp(30px, 5vw, 47px);
+  padding: 0rem 0.5rem;
   line-height: 120%;
-  letter-spacing: -2%;
+  letter-spacing: -0.02em;
   color: white;
 
   b {
     color: #5a7bfe;
   }
   @media (max-width: 1100px) {
-    font-size: 43px;
-  }
-  @media (max-width: 700px) {
-    font-size: 37px;
-    padding: 0rem 1rem;
-  }
-  @media (max-width: 490px) {
-    font-size: 30px;
-  }
-  @media (max-width: 400px) {
-    font-size: 26px;
+    margin-left: 1rem;
   }
 `;
 const StyledLittleHeader = styled.h3`
   font-family: "Caveat", cursive;
   font-weight: 400;
-  font-size: 21.4px;
-  line-height: 96%;
+  font-size: clamp(20px, 3vw, 30px);
+  line-height: 1;
   text-align: center;
   color: #ffffffa1;
-  transform: translate(30px, -45px) rotate(-8deg);
+  transform: translate(4rem, -2.8rem) rotate(-8deg);
+
   @media (max-width: 1100px) {
-    font-size: 20px;
+    transform: translate(5rem, -1.5rem) rotate(-8deg);
   }
-  @media (max-width: 500px) {
-    transform: translate(40px, -35px) rotate(-8deg);
+  @media (max-width: 300px) {
+    transform: translate(5rem, -0.5rem) rotate(-8deg);
   }
 `;

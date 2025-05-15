@@ -54,7 +54,6 @@ const OtherSkills = () => {
             <img src={zustand} alt="zustand" />
             <p>Zustand</p>
           </StyledSkill>
-
           <StyledSkill>
             <img src={styledcomponent} alt="styledcomponent" />
             <p>Styled Components</p>
@@ -65,61 +64,53 @@ const OtherSkills = () => {
   );
 };
 export default OtherSkills;
+
 const StyledSkills = styled.div`
   margin-top: 10rem;
   width: 100vw;
+  min-height: 20dvh;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
   font-family: "Urbanist", sans-serif;
 `;
 const StyledDiv = styled.div`
   width: 80%;
-  height: 4rem;
+  height: clamp(3rem, 4vw, 6rem);
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  @media (max-width: 1250px) {
+  @media (max-width: 770px) {
     flex-direction: column;
   }
 
   h4 {
     color: white;
     font-weight: 500;
-    font-size: 30px;
+    font-size: clamp(20px, 2.1vw, 50px);
     line-height: 137%;
-    letter-spacing: -2%;
+    letter-spacing: -0.02px;
     text-align: center;
   }
 `;
 const StyledSkill = styled.div`
-  height: 100%;
+  min-height: 100%;
   display: flex;
   align-items: center;
   border: 0.46px solid #ffffff;
   border-radius: 5rem;
   padding: 0 0.8rem;
   margin-left: 1rem;
-  img,
-  p {
-    height: 50%;
-  }
+
   img {
+    width: 2rem;
+    height: 2rem;
     object-fit: cover;
   }
   p {
-    @media (max-width: 450px) {
-      font-size: 0.8rem;
-    }
-    @media (max-width: 1450px) {
-      font-size: 0.8rem;
-    }
+    margin-top: 0;
+    font-size: clamp(0.8rem, 1vw, 2rem);
   }
-
-  /* @media (max-width: 1450px) {
-    padding: 0rem 2rem;
-  } */
 `;
 const Styledsvg = styled.svg`
   color: aliceblue;

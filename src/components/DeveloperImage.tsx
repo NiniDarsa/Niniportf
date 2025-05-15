@@ -6,12 +6,12 @@ const DeveloperImage = () => {
   const mouseMove: Variants = {
     hidden: {
       y: 4,
-      x: -100,
+      x: -70,
       fill: "black",
     },
     visible: {
-      y: -5,
-      x: 20,
+      y: -3,
+      x: -10,
       fill: "black",
 
       transition: {
@@ -779,22 +779,14 @@ const SvgContainer = styled.div`
   position: relative;
 `;
 const StyledSvg = styled.svg`
-  width: 511px;
-  height: 512px;
+  width: clamp(350px, 50vw, 511px);
+  height: clamp(360px, 55vw, 514px);
   transform: translateY(4%);
-  @media (max-width: 670px) {
-    width: 400px;
-    height: 514px;
-  }
-  @media (max-width: 450px) {
-    width: 350px;
-    height: 514px;
-  }
 `;
 const StyledMouse = styled(motion.svg)`
-  width: 14rem;
-  height: 1.2rem;
+  width: clamp(8rem, 10vw, 14rem);
+  height: clamp(0.8rem, 1vw, 1.2rem);
   position: absolute;
-  top: 25%;
-  left: 5%;
+  top: clamp(25%, 26%, 27%);
+  left: clamp(11%, 11.5%, 12%);
 `;

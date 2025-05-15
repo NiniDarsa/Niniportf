@@ -243,13 +243,11 @@ const AboutImage = () => {
 export default AboutImage;
 
 const Styledsvg = styled.svg`
-  width: 70%;
+  width: clamp(300px, 70%, 800px);
 
-  @media (max-width: 1100px) {
-    width:100%;
-  }
-
-  @media (max-width: 900px) {
-    width: 0%;
+  @media (max-width: 950px) {
+    width: 0;
+    height: 0;
+    overflow: hidden;
   }
 `;

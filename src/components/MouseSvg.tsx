@@ -3,8 +3,8 @@ import styled from "styled-components";
 const MouseSvg = () => {
   return (
     <StyledSvg
-      width="88"
-      height="110"
+      // width="88"
+      // height="110"
       viewBox="0 0 88 110"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -71,8 +71,11 @@ export default MouseSvg;
 
 const StyledSvg = styled.svg`
   position: absolute;
+  width: clamp(40px, 6vw, 88px);
+  height: clamp(20px, 10vw, 110px);
   z-index: 2;
   bottom: 2%;
   left: 50%;
   transform: translateX(-50%);
+  aspect-ratio: 2 / 1;
 `;

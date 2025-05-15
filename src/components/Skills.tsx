@@ -88,14 +88,14 @@ const Skills = () => {
             <Circle>
               <img src={figma} alt="figma" />
             </Circle>
-            <SmallText>1 years of experience</SmallText>
+            <SmallText>1 year of experience</SmallText>
           </div>
           <div className="back">
             <Circle>
               <img src={figma} alt="figma" />
             </Circle>
             <p>
-              I have 1 years of experience using Figma to design smooth and
+              I have 1 year of experience using Figma to design smooth and
               interactive animations, which I bring to life in React
               applications
             </p>
@@ -119,7 +119,7 @@ const Skills = () => {
                 />
               </svg>
             </Circle>
-            <SmallText>2 years of experience</SmallText>
+            <SmallText>1 year of experience</SmallText>
           </div>
           <div className="back">
             <Circle>
@@ -137,8 +137,8 @@ const Skills = () => {
               </svg>
             </Circle>
             <p>
-              I have 2 years of experience using Typescript to build scalable
-              and maintainable React components.
+              I have 1 year of experience using Typescript to build scalable and
+              maintainable React components.
             </p>
           </div>
         </div>
@@ -199,7 +199,7 @@ const Card = styled.div`
       rgba(255, 255, 255, 0.005) 105.18%
     );
     box-shadow: 0px 44px 33px -22px #00000026, inset 0px 0px 11px 0px #f8f8f840;
-    transition: opacity 0.1s ease, visibility 0.1s ease;
+    transition: all 0.1s ease;
   }
   .front {
     left: 50%;
@@ -209,6 +209,7 @@ const Card = styled.div`
     opacity: 1;
   }
   .back {
+    padding: 2rem;
     visibility: hidden;
     opacity: 0;
   }
@@ -225,11 +226,10 @@ const Card = styled.div`
     left: 0;
     display: flex;
     justify-content: start;
-    padding: 2rem;
     font-weight: 400;
     font-size: 20px;
     line-height: 137%;
-    letter-spacing: -2%;
+    letter-spacing: -0.02px;
     text-align: center;
   }
 `;

@@ -18,26 +18,18 @@ const ButtonContainer = () => {
 export default ButtonContainer;
 
 const StyledBtnContainer = styled.div`
-  margin-top: 2rem;
+  margin-top: 1rem;
 
   button {
-    width: 10rem;
-    height: 4.5rem;
+    width: clamp(8rem, 11vw, 15rem);
+    height: clamp(2.5rem, 5vw, 4.5rem);
+    font-size: clamp(10px, 3vw, 14px);
+    padding: 0 0.2rem;
+    margin-left: 1rem;
     border-radius: 1000px;
     color: white;
     cursor: pointer;
     transition: all 0.2s ease;
-
-    @media (max-width: 900px) {
-      width: 8rem;
-      height: 3.5rem;
-    }
-    @media (max-width: 350px) {
-      width: 6rem;
-      height: 2.5rem;
-      font-size: 0.6rem;
-      margin-top: 2rem;
-    }
   }
   @media (max-width: 1100px) {
     margin: auto;

@@ -124,76 +124,67 @@ export default Projects;
 
 const StyledProjects = styled.div`
   position: relative;
-  height: 170vh;
+  min-height: 170dvh;
   background: #060018;
   padding-top: 6rem;
 
-  @media (max-width: 1280px) {
-    height: 280vh;
-    display: flex;
-    justify-content: center;
+  @media (max-width: 1200px) {
+    height: 200dvh;
   }
-
-  @media (max-width: 1250px) {
-    height: 200vh;
+  ///
+  @media (max-width: 1100px) {
+    height: 140dvh;
   }
-  /* @media (max-width: 800px) {
-    height: 240vh;
-  } */
-  @media (max-width: 900px) {
-    height: 170vh;
+  @media (max-width: 1030px) {
+    height: 340dvh;
   }
-  @media (max-width: 650px) {
-    height: 150vh;
+  @media (max-width: 870px) {
+    height: 200dvh;
+  }
+  @media (max-width: 770px) {
+    height: 250dvh;
+  }
+  //
+  @media (max-width: 600px) {
+    height: 240dvh;
   }
   @media (max-width: 450px) {
-    height: 120vh;
+    height: 180dvh;
   }
-  /* @media (max-width: 400px) {
-    height: 200vh;
-  } */
 
   h1 {
     font-family: "Urbanist", sans-serif;
     font-weight: 600;
-    font-size: 56px;
-    line-height: 98%;
-    letter-spacing: -2%;
+    font-size: clamp(28px, 5vw, 56px);
+    line-height: 1;
+    letter-spacing: 0.02px;
     text-align: center;
     color: white;
     position: absolute;
     z-index: 2;
     left: 50%;
     transform: translateX(-50%);
-    @media (max-width: 1100px) {
-      font-size: 40px;
-    }
-    @media (max-width: 650px) {
-      font-size: 33px;
-    }
   }
   h4 {
     font-family: "Caveat", cursive;
     font-weight: 400;
-    line-height: 96%;
-    letter-spacing: 0%;
+    line-height: 1;
     text-align: center;
+    font-size: clamp(20px, 4vw, 36px);
     color: #ffffffa1;
     transform: rotate(15deg);
-    left: 39%;
+    left: 20%;
     top: 13%;
     position: absolute;
     z-index: 2;
     @media (max-width: 1270px) {
-      top: 9%;
-      left: 50%;
-      transform: translateX(-50%);
+      top: 5%;
     }
-    @media (max-width: 700px) {
+    @media (max-width: 900px) {
+      top: 4%;
+    }
+    @media (max-width: 560px) {
       top: 12%;
-    }
-    @media (max-width: 450px) {
-      top: 15%;
     }
   }
 `;

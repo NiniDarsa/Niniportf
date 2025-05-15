@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
   #root{
     width: 100vw;
     //Make it at least the size of the screen, but let it grow if content needs more space
-    min-height: 100vh;//	Let the element be at least the height of the viewport, but grow if content overflows
+    min-height: 100dvh;//	Let the element be at least the height of the viewport, but grow if content overflows
     color: white;
     overflow-x: hidden;
   }

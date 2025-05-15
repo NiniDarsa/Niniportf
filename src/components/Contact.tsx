@@ -178,7 +178,7 @@ const StyledContact = styled.div`
   position: relative;
   font-family: "Urbanist", sans-serif;
   @media (max-width: 1200px) {
-    height: 110vh;
+    height: 110dvh;
   }
 
   .grid-container {
@@ -229,6 +229,7 @@ const StyledContact = styled.div`
       border-radius: 4rem;
       cursor: pointer;
       transition: all 0.4s ease;
+
       @media (max-width: 1100px) {
         font-size: 10px;
         line-height: 130%;
@@ -354,10 +355,9 @@ const StyledContact = styled.div`
         height: 3rem;
         border-radius: 2rem;
         cursor: pointer;
-
         font-weight: 200;
         font-size: 14px;
-        line-height: 142%;
+        line-height: 1.4;
         transition: all 0.4s ease;
         &:hover {
           background: linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
@@ -414,7 +414,7 @@ const StyledContact = styled.div`
       transform: translateY(-50%);
       font-weight: 600;
       font-size: 14px;
-      line-height: 142%;
+      line-height: 1.4;
       color: #ffffffb2;
     }
   }
@@ -484,7 +484,7 @@ const StyleInfo = styled.div`
     &:first-child {
       font-weight: 600;
       font-size: 14px;
-      line-height: 142%;
+      line-height: 1.4;
     }
 
     &:nth-child(2),

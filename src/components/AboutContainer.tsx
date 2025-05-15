@@ -210,15 +210,19 @@ const AboutContainer = () => {
   );
 };
 export default AboutContainer;
+
 const StyledContainer = styled.div`
   width: 90%;
-  height: 532px;
+  max-width: 100%;
+  min-width: 80%;
+  min-height: 532px;
+
   padding: 4rem 8rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  @media (max-width: 1100px) {
-    width: 100%;
+  @media (max-width: 768px) {
+    padding: 2rem 1rem;
   }
 `;
 const StyledBox = styled(motion.div)`
@@ -234,22 +238,12 @@ const StyledBox = styled(motion.div)`
     font-weight: 600;
     font-size: 14px;
     line-height: 142%;
-    letter-spacing: 0%;
     color: #1a1a1a99;
   }
   p {
     font-weight: 600;
-    font-size: 32px;
+    font-size: clamp(15px, 4vw, 32px);
     line-height: 116%;
     letter-spacing: -3%;
-    @media (max-width: 1100px) {
-      font-size: 25px;
-    }
-    @media (max-width: 750px) {
-      font-size: 20px;
-    }
-    @media (max-width: 350px) {
-      font-size: 15px;
-    }
   }
 `;

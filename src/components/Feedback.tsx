@@ -326,35 +326,42 @@ export default Feedback;
 
 const StyledFeedback = styled.div`
   font-family: "Urbanist", sans-serif;
-  height: 160vh;
-  padding-top: 8rem;
+  height: 160dvh;
+  padding-top: clamp(4rem, 10vw, 8rem);
   background-color: white;
   position: relative;
 
   h1 {
     font-weight: 600;
-    font-size: 70px;
-    line-height: 98%;
-    letter-spacing: 0%;
+    font-size: clamp(30px, 6vw, 70px);
+    line-height: 1.1;
     text-align: center;
     color: black;
-    @media (max-width: 1200px) {
-      font-size: 50px;
-    }
   }
 
   @media (max-width: 1250px) {
-    height: 170vh;
+    height: 170dvh;
   }
   @media (max-width: 1100px) {
-    height: 200vh;
+    height: 220dvh;
   }
   @media (max-width: 850px) {
-    height: 210vh;
+    height: 130dvh;
   }
-
-  @media (max-width: 480px) {
-    height: 240vh;
+  @media (max-width: 730px) {
+    height: 160dvh;
+  }
+  @media (max-width: 600px) {
+    height: 220dvh;
+  }
+  @media (max-width: 500px) {
+    height: 250dvh;
+  }
+  @media (max-width: 432px) {
+    height: 200dvh;
+  }
+  @media (max-width: 380px) {
+    height: 250dvh;
   }
 `;
 const StyledContainer = styled.div`
@@ -362,18 +369,14 @@ const StyledContainer = styled.div`
   width: 60%;
   position: absolute;
   left: 50%;
-  top: 25%;
+  top: clamp(10%, 25vw, 25%);
   transform: translateX(-50%);
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-row-gap: 3rem;
-
-  @media (max-width: 1200px) {
-    width: 90%;
-  }
-  @media (max-width: 700px) {
-    top: 15%;
+  @media (max-width: 500px) {
+    grid-template-columns: 1fr;
   }
 `;
 
@@ -385,13 +388,9 @@ const FeedBack = styled.div`
   padding: 2rem 2rem;
   border-radius: 1rem;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 124%;
-  letter-spacing: -1%;
+  font-size: clamp(15px, 2vw, 20px);
+  line-height: 1.24;
   text-align: center;
-  @media (max-width: 350px) {
-    font-size: 15px;
-  }
 `;
 const Container = styled.div`
   display: flex;
@@ -400,9 +399,8 @@ const Container = styled.div`
 `;
 const SmallText = styled.p`
   font-weight: 600;
-  font-size: 10px;
-  line-height: 148%;
-  letter-spacing: 0%;
+  font-size: clamp(8px, 1vw, 10px);
+  line-height: 1.48;
   border-top: 1px solid grey;
   margin-top: 1rem;
   padding-top: 1rem;

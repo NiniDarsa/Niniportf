@@ -106,7 +106,7 @@ export default Navigation;
 
 const StyledNav = styled.nav<{ $isopen: boolean }>`
   width: 70%;
-  padding: 2px 10px;
+  padding: 0.5rem 1rem;
   position: fixed;
   left: 50%;
   transform: translate(-50%, 40%);
@@ -117,10 +117,11 @@ const StyledNav = styled.nav<{ $isopen: boolean }>`
   border: 1px solid #2b56f091;
 
   @media (max-width: 750px) {
-    height: ${({ $isopen }) => ($isopen ? "100%" : "8%")};
+    width: ${({ $isopen }) => ($isopen ? "100%" : "50px")};
+    height: ${({ $isopen }) => ($isopen ? "100vh" : "50px")};
+
     transform: ${({ $isopen }) =>
       $isopen ? "translate(-50%, 0)" : "translate(-50%, 40%)"};
-    width: ${({ $isopen }) => ($isopen ? "100%" : "9%")};
     left: ${({ $isopen }) => ($isopen ? "" : "10%")};
     display: ${({ $isopen }) => ($isopen ? "" : "flex")};
     justify-content: center;
@@ -143,7 +144,6 @@ const StyledNav = styled.nav<{ $isopen: boolean }>`
     li {
       width: 100%;
       height: 100%;
-
       text-align: center;
       @media (max-width: 750px) {
         font-size: ${({ $isopen }) => ($isopen ? "4rem" : "16px")};
@@ -160,19 +160,9 @@ const StyledNav = styled.nav<{ $isopen: boolean }>`
         border: none;
         color: white;
         cursor: pointer;
-        width: 100%;
-        height: 100%;
         padding: 0.5rem;
-        font-weight: 200;
-        font-size: 16px;
-
-        @media (max-width: 650px) {
-          padding-right: 4px;
-        }
-
-        @media (max-width: 600px) {
-          padding-right: 4px;
-        }
+        font-weight: 400;
+        font-size: clamp(0.9rem, 1.1vw, 1.2rem);
       }
     }
   }
@@ -229,7 +219,6 @@ const Hamburger = styled.div`
 
   @media (max-width: 750px) {
     display: flex;
-
     position: absolute;
     z-index: 2;
   }
